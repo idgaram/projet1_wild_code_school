@@ -133,3 +133,14 @@ table {
 * {
   box-sizing: border-box;
 }
+
+header {
+  position: fixed;
+  top: 0%;
+
+  .logo {
+    img {
+      width: 1rem;
+    }
+  }
+}
