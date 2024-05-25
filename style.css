@@ -220,3 +220,7 @@ header {
 section {
   margin: 20rem 20rem;
 }
+
+.bio {
+  background-color: cadetblue;
+}
