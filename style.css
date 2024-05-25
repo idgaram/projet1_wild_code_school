@@ -218,7 +218,12 @@ header {
 }
 
 section {
-  margin: 20rem 20rem;
+  margin: 20rem 44rem;
+}
+
+.bio {
+  background-color: cadetblue;
+  border-radius: 1px solid;
 }
 
 .bio {
