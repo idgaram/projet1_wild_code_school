@@ -141,6 +141,13 @@ table {
   box-sizing: border-box;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 66% 33%;
+  margin: 10rem 25%;
+  gap: 6rem;
+}
+
 header {
   background-color: white;
   padding: 0 23rem;
@@ -150,6 +157,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-shrink: 0;
+  z-index: 3;
 
   img {
     width: 100px;
@@ -217,11 +225,38 @@ header {
   }
 }
 
-section {
-  margin: 20rem 44rem;
-}
-
 .bio {
   background-color: cadetblue;
-  border-radius: 1px solid;
+  border-radius: 0.5rem;
+
+  .bio-bannière {
+    img {
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .bio-photo {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    z-index: 2;
+    margin: -4.5rem 0;
+
+    img {
+      width: 140px;
+      height: 140px;
+      border-radius: 100%;
+      border: solid 4px white;
+    }
+  }
+
+  .bio-textes {
+    padding: 4rem 1.5rem 2rem 1.5rem;
+    img {
+      max-width: 2rem;
+    }
+  }
 }
