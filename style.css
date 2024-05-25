@@ -88,7 +88,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -129,16 +129,25 @@ table {
 }
 
 /* -------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 :root {
+  --clr-white-hover: #ebf4fd;
   --clr-light-grey: #666666;
   --clr-lighter-grey: #f5f5f5;
   --clr-dark-grey: #404040;
-
   --clr-blue: #0a66c2;
+  --clr-blue-link: #307ecc;
+  --clr-blue-hover: #004182;
+  --clr-grey-hover: #f3f3f3;
 }
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f4f2ee;
 }
 
 .main {
@@ -226,7 +235,7 @@ header {
 }
 
 .bio {
-  background-color: cadetblue;
+  background-color: white;
   border-radius: 0.5rem;
 
   .bio-bannière {
@@ -255,8 +264,128 @@ header {
 
   .bio-textes {
     padding: 4rem 1.5rem 2rem 1.5rem;
+    display: flex;
+    line-height: 1.2rem;
     img {
       max-width: 2rem;
+    }
+    .bio-left {
+      width: 66%;
+      display: flex;
+      flex-direction: column;
+
+      a {
+        color: var(--clr-blue-link);
+        text-decoration: none;
+      }
+      a:visited {
+        color: var(--clr-blue-link);
+      }
+      #bio-abdou {
+        color: black;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      p {
+        line-height: 1.5rem;
+      }
+      .bio-localisation {
+        color: var(--clr-dark-grey);
+        font-size: 0.9rem;
+        margin: 0.25rem 0;
+      }
+      .bio-bold {
+        font-weight: bold;
+        color: var(--clr-dark-grey);
+      }
+      .bio-buttons {
+        display: flex;
+        .bio-buttons-connect {
+          margin-right: 0.7rem;
+          background-color: var(--clr-blue);
+          border: solid 1px var(--clr-blue);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          color: white;
+          width: 8rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          padding: 0.5rem;
+          font-size: 0.8rem;
+          img {
+            height: 1.2rem;
+            margin-right: 0.5rem;
+          }
+        }
+
+        .bio-buttons-connect:hover {
+          background-color: var(--clr-blue-hover);
+          border: solid 1px var(--clr-blue-hover);
+          cursor: pointer;
+          transition: 0.1s ease-in;
+        }
+        .bio-buttons-message {
+          margin-right: 0.7rem;
+          background-color: white;
+          border: solid 1px var(--clr-blue);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          color: var(--clr-blue);
+          width: 6rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          padding: 0.5rem;
+        }
+        .bio-buttons-message:hover {
+          background-color: var(--clr-white-hover);
+          border: solid 1px var(--clr-blue-hover);
+          color: var(--clr-blue-hover);
+          cursor: pointer;
+          transition: 0.1s ease-in;
+        }
+        .bio-buttons-plus {
+          background-color: white;
+          border: solid 1px var(--clr-dark-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          color: var(--clr-dark-grey);
+          width: 4rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          padding: 0.5rem;
+        }
+        .bio-buttons-plus:hover {
+          background-color: var(--clr-grey-hover);
+          border: solid 1px black;
+          color: black;
+          cursor: pointer;
+          transition: 0.1s ease-in;
+        }
+      }
+    }
+    .bio-right {
+      li {
+        display: flex;
+        align-items: center;
+      }
+      a {
+        margin-left: 1rem;
+        color: var(--clr-blue-link);
+        text-decoration: none;
+      }
+      a:visited {
+        color: var(--clr-blue-link);
+      }
     }
   }
 }
