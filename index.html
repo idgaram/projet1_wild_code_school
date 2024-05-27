@@ -9,31 +9,34 @@
   <body>
     <nav>
       <header>
-        <img src="assets\logo_linkedin_desktop.png" alt="logo linkedin" />
+        <div class="header-left">
+          <img
+            id="logo-linkedin"
+            src="assets\linkedin.png"
+            alt="logo linkedin"
+          />
+
+          <div class="header-search">
+            <img src="assets\search-svgrepo-com.svg" alt="search logo" />
+            <input type="search" placeholder="Recherche" />
+          </div>
+        </div>
         <div class="header-right">
           <div class="header-icons">
             <img
               class="logo"
-              src="assets\articles-svgrepo-com.svg"
-              alt="logo articles"
+              src="assets\home-4-svgrepo-com.svg"
+              alt="logo accueil"
             />
-            <p>Articles</p>
+            <p>Accueil</p>
           </div>
           <div class="header-icons">
             <img
               class="logo"
               src="assets\person-team-svgrepo-com.svg"
-              alt="logo personnes"
+              alt="logo réseau"
             />
-            <p>Personnes</p>
-          </div>
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\school-svgrepo-com.svg"
-              alt="logo Linkedin Learning"
-            />
-            <p>LinkedIn<br />Learning</p>
+            <p>Réseau</p>
           </div>
           <div class="header-icons">
             <img
@@ -41,8 +44,25 @@
               src="assets\job-search-svgrepo-com.svg"
               alt="logo Offres d'emploi"
             />
-            <p>Offres<br />d'emploi</p>
+            <p>Offres d'emploi</p>
           </div>
+          <div class="header-icons">
+            <img
+              class="logo"
+              src="assets\school-svgrepo-com.svg"
+              alt="logo Linkedin Learning"
+            />
+            <p>LinkedIn Learning</p>
+          </div>
+          <div class="header-icons">
+            <img
+              class="logo"
+              src="assets\message-circle-lines-svgrepo-com.svg"
+              alt="logo messagerie"
+            />
+            <p>Messagerie</p>
+          </div>
+          <div class="vertical-line"></div>
           <a href="">S'inscrire</a>
           <a class="identify" href="">S'identifier</a>
         </div>
@@ -50,46 +70,67 @@
 
     </nav>
 
-    <!-- debut bloc bio -->
+    <!-- main body -->
 
-    <section class="bio">
-      <div>
-        <img src="assets/banniere_bio.png" alt="" />
-      </div>
-      <img src="assets\photo_abdou.jpg" alt="" />
-      <div>
-        <div class="bio-left">
-          <a href="">Abdou Kerbeb</a>
-          <p class="bio-description">
-            Formateur React / Node.js @WildCodeSchool / Développeur
-          </p>
-          <p class="bio-localisation">Paris, Île-de-France, France</p>
-          <a href="">Coordonnées</a>
-          <p><span class="bio-bold">Plus de 500</span>relations</p>
-          <div class="bio-buttons">
-            <button class="bio-buttons-connect">
-              <img src="assets/se_connecter.svg" alt="" />Se connecter
-            </button>
-            <button class="bio-buttons-message">Message</button>
-            <button class="bio-buttons-Plus">Plus</button>
+    <div class="main">
+      <!-- debut bloc bio -->
+
+      <section class="bio">
+        <div class="bio-bannière">
+          <img src="assets/banniere_bio.png" alt="" />
+        </div>
+        <div class="bio-photo"><img src="assets\photo_abdou.jpg" alt="" /></div>
+        <div class="bio-textes">
+          <div class="bio-left">
+            <a id="bio-abdou" href="">Abdou Kerbeb</a>
+            <p class="bio-description">
+              Formateur React / Node.js @WildCodeSchool / Développeur
+            </p>
+            <p class="bio-localisation">
+              Paris, Île-de-France, France
+              <a href="">&nbsp;&nbsp;Coordonnées</a>
+            </p>
+
+            <p><span class="bio-bold">Plus de 500 </span>relations</p>
+            <br />
+            <div class="bio-buttons">
+              <button class="bio-buttons-connect">
+                <img src="assets/se_connecter.svg" alt="" />Se connecter
+              </button>
+              <button class="bio-buttons-message">Message</button>
+              <button class="bio-buttons-plus">Plus</button>
+            </div>
+          </div>
+          <div class="bio-right">
+            <ul>
+              <li>
+                <img src="assets/wild_code_school_logo.jpg" alt="" />
+                <a href="">Wild Code School</a>
+              </li>
+              <li>
+                <img src="assets/42_logo.jpg" alt="" />
+                <a href="">42</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="bio-right">
-          <ul>
-            <li>
-              <img src="assets/wild_code_school_logo.jpg" alt="" />
-              <a href=""></a>
-            </li>
-            <li>
-              <img src="assets/42_logo.jpg" alt="" />
-              <a href=""></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      </section>
+
 
     <!-- fin bloc bio -->
+
+
+      <div class="test">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+          illo voluptate? Aliquid dolores veritatis explicabo beatae cum at
+          iusto adipisci suscipit commodi sed? Modi officia placeat corporis
+          suscipit natus iste.
+        </p>
+      </div>
+    </div>
+
+
 
   </body>
   <script src="script.js"></script>
