@@ -139,6 +139,8 @@ table {
   --clr-blue-link: #307ecc;
   --clr-blue-hover: #004182;
   --clr-grey-hover: #f3f3f3;
+  --clr-search-bar: #edf3f8;
+  --clr-border: #dfdeda;
 }
 
 * {
@@ -152,38 +154,81 @@ body {
 
 .main {
   display: grid;
-  grid-template-columns: 66% 33%;
-  margin: 10rem 25%;
-  gap: 6rem;
+  grid-template-columns: 77.5% 22.5%;
+  margin: 4.7rem 31rem 3rem 24.2rem;
+  gap: 2rem;
 }
 
 header {
   background-color: white;
-  padding: 0 23rem;
+  padding: 0 24.6rem;
   width: 100%;
+  height: 3.3rem;
   position: fixed;
   top: 0%;
   display: flex;
   justify-content: space-between;
   flex-shrink: 0;
   z-index: 3;
-
-  img {
-    width: 100px;
-    height: 35px;
-    overflow: hidden;
-    align-self: center;
+  input {
+    border: 0;
   }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .header-search {
+      display: flex;
+      align-items: center;
+      height: 2rem;
+      width: 17.5rem;
+      margin-left: 0.6rem;
+      padding-left: 1rem;
+      background-color: var(--clr-search-bar);
+      border-radius: 0.3rem;
+      img {
+        width: 15px;
+        height: 15px;
+      }
+      input {
+        padding-left: 0.5rem;
+        background-color: var(--clr-search-bar);
+      }
+    }
+  }
+
   .header-right {
+    img {
+      width: 27px;
+      height: 27px;
+      overflow: hidden;
+      align-self: center;
+    }
+
+    .vertical-line {
+      border-left: 1px solid #e8e8e8;
+      height: 3.3rem;
+      margin-right: 0.5rem;
+    }
+
     display: flex;
     flex-direction: row;
     padding: 0 2rem;
+    margin-left: 1rem;
 
     align-items: center;
     p {
-      font-size: 0.75rem;
+      font-size: 0.73rem;
       color: var(--clr-dark-grey);
       text-align: center;
+      width: 6rem;
+      margin: 0 -1.2rem;
     }
     .header-icons {
       display: flex;
@@ -223,7 +268,7 @@ header {
       text-decoration: none;
       color: var(--clr-blue);
       width: 8rem;
-      height: 3rem;
+      height: 2.7rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -237,6 +282,7 @@ header {
 .bio {
   background-color: white;
   border-radius: 0.5rem;
+  border: solid 1px var(--clr-border);
 
   .bio-bannière {
     img {
@@ -249,14 +295,14 @@ header {
 
   .bio-photo {
     position: relative;
-    top: -20px;
-    left: 20px;
+    top: -34px;
+    left: 25px;
     z-index: 2;
     margin: -4.5rem 0;
 
     img {
-      width: 140px;
-      height: 140px;
+      width: 160px;
+      height: 160px;
       border-radius: 100%;
       border: solid 4px white;
     }
