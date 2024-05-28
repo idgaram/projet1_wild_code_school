@@ -446,78 +446,90 @@ nav {
   }
 }
 
-.bloc-activité { 
+.bloc-activité {
   margin-top: 1rem;
   border: 1px solid var(--clr-border);
   border-radius: 0.5rem;
   background: var(--clr-fond);
 
- .activité {
-  margin: 1.5rem;
-  text-align: left;  
-}
-
-.texte1{
-  margin-top: 0.3rem;
-  font-size: small;
-  color: var(--clr-texte);
-}
-
-.Abdou {
-  margin: 1.5rem;
-  text-align: left;
-}
-
-.texte2 {
-  margin-top: 0.3rem;
-  font-size: small;
-}
-
-.button {
-  height: 40px;
-  border-radius: 0 0 0.5rem 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: solid 1px var(--clr-border) ;
-a {
-  color: black;
-  text-decoration: none; 
+  .activité {
+    margin: 1.5rem;
+    text-align: left;
   }
-} 
-}
 
+  .texte1 {
+    margin-top: 0.3rem;
+    font-size: small;
+    color: var(--clr-texte);
+  }
+
+  .Abdou {
+    margin: 1.5rem;
+    text-align: left;
+  }
+
+  .texte2 {
+    margin-top: 0.3rem;
+    font-size: small;
+  }
+
+  .button {
+    height: 40px;
+    border-radius: 0 0 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px var(--clr-border);
+    a {
+      color: black;
+      text-decoration: none;
+
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      padding: 1em 26rem;
+      margin: -1em -26rem;
+    }
+  }
+}
 
 footer {
   padding: 0 23rem;
   display: flex;
 
-    ul {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    li {
       display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+      flex-direction: row;
+      justify-content: flex-start;
       flex-wrap: wrap;
+      padding: 0 2rem;
 
-      li {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding: 0 2rem;
-
-        img {
-          width: 2rem;
-          position: relative;
-          bottom: 0.5rem;
-        }
+      img {
+        width: 2rem;
+        position: relative;
+        bottom: 0.5rem;
       }
+    }
   }
-
 }
 
 .aside {
   grid-column-start: 2;
   grid-column-end: 2;
+
+  a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+  }
 }
 
 footer {
