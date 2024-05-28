@@ -441,9 +441,68 @@ nav {
   }
 }
 
+.centres-dinteret {
+  display: flex;
+  flex-direction: column;
+  
+    .ci-titre {
+    font-size: 2rem;
+    }
+
+    .ci-onglets{
+      display: flex;
+      flex-direction: row;
+      padding: 0.5rem;
+
+        li {
+          display: flex;
+          flex-direction: row;
+          padding: 2rem;
+        }
+
+    }
+    
+}
+
+.ci-ent-suivies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+    .ci-colonne {
+      display: flex;
+      flex-direction: row;
+
+        img {
+          width: 5rem;
+        }
+
+      .ci-colonne-info {
+        display: flex;
+        flex-direction: column;
+
+        button {
+          border: solid 1px var(--clr-light-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          width: 4rem;
+          height: 2rem;
+    
+        }
+      }
+    }
+
+}
+
+
+
+
 footer {
+  /* position: absolute; */
+  bottom: 1px;
   padding: 0 23rem;
   display: flex;
+  line-height: 2rem;
 
     ul {
       display: flex;
@@ -460,8 +519,6 @@ footer {
 
         img {
           width: 2rem;
-          position: relative;
-          bottom: 0.5rem;
         }
       }
   }
@@ -471,9 +528,4 @@ footer {
 .aside {
   grid-column-start: 2;
   grid-column-end: 2;
-}
-
-footer {
-  position: absolute;
-  bottom: 1px;
 }
