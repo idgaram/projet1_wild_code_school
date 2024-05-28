@@ -141,6 +141,11 @@ table {
   --clr-grey-hover: #f3f3f3;
   --clr-search-bar: #edf3f8;
   --clr-border: #dfdeda;
+
+  --clr-fond: #ffffff;
+  --clr-button: #f3f3f3;
+
+  --clr-texte: #9e9e9e;
 }
 
 * {
@@ -441,9 +446,57 @@ nav {
   }
 }
 
+.bloc-activité {
+  margin-top: 1rem;
+  border: 1px solid var(--clr-border);
+  border-radius: 0.5rem;
+  background: var(--clr-fond);
+
+  .activité {
+    margin: 1.5rem;
+    text-align: left;
+  }
+
+  .texte1 {
+    margin-top: 0.3rem;
+    font-size: small;
+    color: var(--clr-texte);
+  }
+
+  .Abdou {
+    margin: 1.5rem;
+    text-align: left;
+  }
+
+  .texte2 {
+    margin-top: 0.3rem;
+    font-size: small;
+  }
+
+  .button {
+    height: 40px;
+    border-radius: 0 0 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px var(--clr-border);
+    a {
+      color: black;
+      text-decoration: none;
+
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      padding: 1em 26rem;
+      margin: -1em -26rem;
+    }
+  }
+}
+
 footer {
   padding: 0 23rem;
   display: flex;
+  bottom: 1px;
 
   ul {
     display: flex;
@@ -468,26 +521,55 @@ footer {
 }
 
 .competences {
+  color: var(--clr-dark-grey);
   margin-top: 0.8rem;
   background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
+  padding: 1.3rem 1.5rem;
 
   h2 {
-    color: black;
     font-weight: 600;
     font-size: 1.2rem;
     line-height: 2rem;
-    padding: 1.3rem 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .competences-description {
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+
+    img {
+      width: 25px;
+      height: 25px;
+      border-radius: 1rem;
+      margin: 0.5rem 0.6rem 0.5rem 0;
+    }
+    article {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .competences-bouton {
+    /* margin: 1rem 0; */
+    border-radius: 0 0 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px var(--clr-border);
+    a {
+      color: black;
+      text-decoration: none;
+
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      padding: 10 26rem;
+      margin: -10 -26rem;
+    }
   }
 }
 
 .aside {
   grid-column-start: 2;
   grid-column-end: 2;
-}
-
-footer {
-  /* position: absolute; */
-  bottom: 1px;
 }
