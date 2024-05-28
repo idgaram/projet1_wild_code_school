@@ -7,8 +7,8 @@
     <title>Abdou Kerbeb |linkedin</title>
   </head>
   <body>
-    <nav>
-      <header>
+    <header>
+      <nav>
         <div class="header-left">
           <img
             id="logo-linkedin"
@@ -66,57 +66,62 @@
           <a href="">S'inscrire</a>
           <a class="identify" href="">S'identifier</a>
         </div>
-      </header>
-    </nav>
+      </nav>
+    </header>
 
     <!-- main body -->
 
-    <div class="main">
-      <!-- debut bloc bio -->
+    <main>
+      <!-- colonne de gauche -->
 
-      <section class="bio">
-        <div class="bio-bannière">
-          <img src="assets/banniere_bio.png" alt="" />
-        </div>
-        <div class="bio-photo"><img src="assets\photo_abdou.jpg" alt="" /></div>
-        <div class="bio-textes">
-          <div class="bio-left">
-            <a id="bio-abdou" href="">Abdou Kerbeb</a>
-            <p class="bio-description">
-              Formateur React / Node.js @WildCodeSchool / Développeur
-            </p>
-            <p class="bio-localisation">
-              Paris, Île-de-France, France
-              <a href="">&nbsp;&nbsp;Coordonnées</a>
-            </p>
+      <div class="left">
+        <!-- debut bloc bio -->
 
-            <p><span class="bio-bold">Plus de 500 </span>relations</p>
-            <br />
-            <div class="bio-buttons">
-              <button class="bio-buttons-connect">
-                <img src="assets/se_connecter.svg" alt="" />Se connecter
-              </button>
-              <button class="bio-buttons-message">Message</button>
-              <button class="bio-buttons-plus">Plus</button>
+        <section class="bio">
+          <div class="bio-bannière">
+            <img src="assets/banniere_bio.png" alt="" />
+          </div>
+          <div class="bio-photo">
+            <img src="assets\photo_abdou.jpg" alt="" />
+          </div>
+          <div class="bio-textes">
+            <div class="bio-left">
+              <a id="bio-abdou" href="">Abdou Kerbeb</a>
+              <p class="bio-description">
+                Formateur React / Node.js @WildCodeSchool / Développeur
+              </p>
+              <p class="bio-localisation">
+                Paris, Île-de-France, France
+                <a href="">&nbsp;&nbsp;Coordonnées</a>
+              </p>
+
+              <p><span class="bio-bold">Plus de 500 </span>relations</p>
+              <br />
+              <div class="bio-buttons">
+                <button class="bio-buttons-connect">
+                  <img src="assets/se_connecter.svg" alt="" />Se connecter
+                </button>
+                <button class="bio-buttons-message">Message</button>
+                <button class="bio-buttons-plus">Plus</button>
+              </div>
+            </div>
+            <div class="bio-right">
+              <ul>
+                <li>
+                  <img src="assets/wild_code_school_logo.jpg" alt="" />
+                  <a href="">Wild Code School</a>
+                </li>
+                <li>
+                  <img src="assets/42_logo.jpg" alt="" />
+                  <a href="">42</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="bio-right">
-            <ul>
-              <li>
-                <img src="assets/wild_code_school_logo.jpg" alt="" />
-                <a href="">Wild Code School</a>
-              </li>
-              <li>
-                <img src="assets/42_logo.jpg" alt="" />
-                <a href="">42</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- fin bloc bio -->
-      <!-- experience -->
+        </section>
+        <!-- fin bloc bio -->
+        <div>
+          <!-- experience -->
 
       <section class="exp">
 
@@ -194,16 +199,72 @@
       </section>
 
       <!--fin experience-->
-
+        </div>
+      </div>
+      
+      <!-- colonne de droite -->
+      
       <div class="">
+      <div class="aside">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
           illo voluptate? Aliquid dolores veritatis explicabo beatae cum at
           iusto adipisci suscipit commodi sed? Modi officia placeat corporis
           suscipit natus iste.
         </p>
+
+        <p>fgmdkefjg</p>
       </div>
     </div>
+  </main>
+
+  <!-- début du footer -->
+
+  <footer>
+      <ul class="footer-colonne1">
+        <li>Infos</li>
+        <li>Directives de la communauté</li>
+        <li>Conditions générales et confidentialité</li>
+        <li>Sales Solutions</li>
+        <li>Centre de sécurité</li>
+      </ul>
+
+      <ul class="footer-colonne2">
+        <li>Accessibilité</li>
+        <li>Carrières</li>
+        <li>Préférences Pubs</li>
+        <li>Mobile</li>
+      </ul>
+
+      <ul class="footer-colonn3">
+        <li>Talent Solutions</li>
+        <li>Marketing Solutions</li>
+        <li>Publicité</li>
+        <li>Petites entreprises</li>
+      </ul>
+
+      <ul>
+        <li><img
+          src="./assets/footer_help.svg" 
+          alt="symbole point d'interrogation">
+          Des questions ?>
+        </li>
+        <li><img
+          src="./assets/footer_nut.svg"
+          alt="symbole écrou">
+          Gérez votre compte et votre confidentialité
+        </li>
+        <li><img 
+          src="./assets/footer_shield.svg"
+          alt="symbole bouclier">
+          Transparence des recommandations
+        </li>
+      </ul>
+    </footer>
+
+    <!-- Fin du footer -->
+
+
   </body>
   <script src="script.js"></script>
 </html>
