@@ -150,6 +150,7 @@ table {
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f4f2ee;
+  min-height: 100vh;
 }
 
 .main {
@@ -159,7 +160,7 @@ body {
   gap: 2rem;
 }
 
-header {
+nav {
   background-color: white;
   padding: 0 24.6rem;
   width: 100%;
@@ -435,3 +436,31 @@ header {
     }
   }
 }
+
+footer {
+  padding: 0 23rem;
+  display: flex;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      li {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+
+        img {
+          width: 2rem;
+          position: relative;
+          bottom: 0.5rem;
+        }
+      }
+  }
+
+}
+
