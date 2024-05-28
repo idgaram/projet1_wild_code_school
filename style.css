@@ -150,6 +150,7 @@ table {
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f4f2ee;
+  min-height: 100vh;
 }
 
 .main {
@@ -159,7 +160,7 @@ body {
   gap: 2rem;
 }
 
-header {
+nav {
   background-color: white;
   padding: 0 24.6rem;
   width: 100%;
@@ -436,6 +437,8 @@ header {
   }
 }
 
-.bio {
-  background-color: cadetblue;
+footer {
+  position: absolute;
+  background-color: #307ecc;
+  bottom: 1px;
 }
