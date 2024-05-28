@@ -1,0 +1,42 @@
+section {
+  
+    border: 1px solid black;
+    border-radius: 20px;
+    background: var(--clr-fond);
+    margin-left: 676px;
+    margin-right: 999px; 
+  } 
+  
+   .activité {
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .texte1{
+    margin-top: -20px;
+    font-size: small;
+    color: var(--clr-texte);
+  }
+  
+  .Abdou {
+    margin-left: 15px;
+    text-align: left;
+  }
+  
+  .texte2 {
+    margin-top: -20px;    
+  }
+  
+  .button {
+    width: 100%;
+    border-top: solid 1px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  a {
+    color: black;
+    text-decoration: none;
+    background: var(--clr-button);
+    }
+  }
