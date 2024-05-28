@@ -441,31 +441,72 @@ nav {
   }
 }
 
+.formation {
+  padding: 2rem 2rem;
+  margin-top: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: solid 1px var(--clr-border);
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+  hr {
+    border: 0.5px solid var(--clr-border);
+  }
+  img {
+    width: 45px;
+    height: 45px;
+  }
+  .formation-date {
+    color: var(--clr-light-grey);
+  }
+  .formation-42 {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6rem;
+
+    .formation-42-texte {
+      margin-left: 0.7rem;
+    }
+  }
+  .formation-ecole-de-conde {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6rem;
+
+    .formation-ecole-de-conde-texte {
+      margin-left: 0.7rem;
+    }
+  }
+}
+
 footer {
   padding: 0 23rem;
   display: flex;
 
-    ul {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    li {
       display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+      flex-direction: row;
+      justify-content: flex-start;
       flex-wrap: wrap;
+      padding: 0 2rem;
 
-      li {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding: 0 2rem;
-
-        img {
-          width: 2rem;
-          position: relative;
-          bottom: 0.5rem;
-        }
+      img {
+        width: 2rem;
+        position: relative;
+        bottom: 0.5rem;
       }
+    }
   }
-
 }
 
 .aside {
@@ -474,6 +515,6 @@ footer {
 }
 
 footer {
-  position: absolute;
+  /* position: absolute; */
   bottom: 1px;
 }
