@@ -441,6 +441,33 @@ nav {
   }
 }
 
+footer {
+  padding: 0 23rem;
+  display: flex;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      li {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+
+        img {
+          width: 2rem;
+          position: relative;
+          bottom: 0.5rem;
+        }
+      }
+  }
+
+}
+
 .aside {
   grid-column-start: 2;
   grid-column-end: 2;
@@ -448,6 +475,5 @@ nav {
 
 footer {
   position: absolute;
-  background-color: #307ecc;
   bottom: 1px;
 }
