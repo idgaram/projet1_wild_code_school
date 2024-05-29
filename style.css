@@ -492,6 +492,42 @@ nav {
   }
 }
 
+.exp {
+  
+  border-radius: 0.5rem;
+  background-color: white;
+  padding: 1rem;
+  border: solid 1px var(--clr-border);
+
+  h2 {
+    padding: 0.5rem;
+  }
+
+  article {
+    display: flex;
+    padding: 0.5rem;
+
+    .logo-exp {
+      display: flex;
+      height: 50px;
+      width: 50px;
+  
+    }
+
+    .exp-text {
+
+      p {
+        padding: 0.5rem;
+      }
+
+      .exp-date {
+        color: grey;
+      }
+    }
+  }
+}
+
+
 footer {
   padding: 0 23rem;
   display: flex;
