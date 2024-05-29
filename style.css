@@ -445,7 +445,49 @@ nav {
   }
 }
 
-.bloc-activité {
+.formation {
+  padding: 2rem 2rem;
+  margin-top: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: solid 1px var(--clr-border);
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+  hr {
+    border: 0.5px solid var(--clr-border);
+  }
+  img {
+    width: 45px;
+    height: 45px;
+  }
+  .formation-date {
+    color: var(--clr-light-grey);
+  }
+  .formation-42 {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6rem;
+
+    .formation-42-texte {
+      margin-left: 0.7rem;
+    }
+  }
+  .formation-ecole-de-conde {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6rem;
+
+    .formation-ecole-de-conde-texte {
+      margin-left: 0.7rem;
+    }
+  }
+}
+
+.bloc-activité { 
   margin-top: 1rem;
   border: 1px solid var(--clr-border);
   border-radius: 0.5rem;
