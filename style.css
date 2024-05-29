@@ -528,10 +528,81 @@ nav {
 }
 
 
+.centres-dinteret {
+  display: flex;
+  flex-direction: column;
+  
+    .ci-titre {
+    font-size: 2rem;
+    }
+
+    .ci-onglets{
+      display: flex;
+      flex-direction: row;
+      padding: 0.5rem;
+
+        li {
+          display: flex;
+          flex-direction: row;
+          padding: 2rem;
+        }
+
+    }
+    
+}
+
+.centres-dinteret {
+  background-color: white;
+  border-radius: 0.5rem;
+  border: solid 1px var(--clr-border)
+}
+
+.ci-ent-suivies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 1.5rem;
+
+    .ci-colonne {
+      display: flex;
+      flex-direction: row;
+
+        img {
+          width: 8rem;
+          padding-right: 2rem;
+        }
+
+      .ci-colonne-info {
+        display: flex;
+        flex-direction: column;
+
+        li:first-child {
+          font-weight: bold;
+        }
+
+        button {
+          border: solid 1px var(--clr-light-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          width: 4rem;
+          height: 2rem;
+    
+        }
+      }
+    }
+
+}
+
+
+
+
 footer {
+  /* position: absolute; */
+  bottom: 1px;
   padding: 0 23rem;
   display: flex;
   bottom: 1px;
+  line-height: 2rem;
 
   ul {
     display: flex;
