@@ -464,22 +464,34 @@ nav {
     
 }
 
+.centres-dinteret {
+  background-color: white;
+  border-radius: 0.5rem;
+  border: solid 1px var(--clr-border)
+}
+
 .ci-ent-suivies {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  line-height: 1.5rem;
 
     .ci-colonne {
       display: flex;
       flex-direction: row;
 
         img {
-          width: 5rem;
+          width: 8rem;
+          padding-right: 2rem;
         }
 
       .ci-colonne-info {
         display: flex;
         flex-direction: column;
+
+        li:first-child {
+          font-weight: bold;
+        }
 
         button {
           border: solid 1px var(--clr-light-grey);
