@@ -578,51 +578,53 @@ nav {
   .ci-onglets {
     display: flex;
     flex-direction: row;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
 
     li {
       display: flex;
       flex-direction: row;
-      padding: 2rem;
+      padding: 2rem 1rem 2rem 0;
     }
   }
 }
 
 .centres-dinteret {
+  margin-top: 1rem;
+  padding: 1.3rem 1.5rem 0 1.5rem;
   background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
-}
 
-.ci-ent-suivies {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  line-height: 1.5rem;
-
-  .ci-colonne {
+  .ci-ent-suivies {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    line-height: 1.5rem;
 
-    img {
-      width: 8rem;
-      padding-right: 2rem;
-    }
-
-    .ci-colonne-info {
+    .ci-colonne {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
 
-      li:first-child {
-        font-weight: bold;
+      img {
+        width: 8rem;
+        padding-right: 2rem;
       }
 
-      button {
-        border: solid 1px var(--clr-light-grey);
-        border-radius: 1.5rem;
-        text-decoration: none;
-        width: 4rem;
-        height: 2rem;
+      .ci-colonne-info {
+        display: flex;
+        flex-direction: column;
+
+        li:first-child {
+          font-weight: bold;
+        }
+
+        button {
+          border: solid 1px var(--clr-light-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          width: 4rem;
+          height: 2rem;
+        }
       }
     }
   }
