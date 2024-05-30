@@ -324,7 +324,6 @@ nav {
   animation-name: sapeShake;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  background-color: ;
 }
 
 @keyframes sapeShake {
