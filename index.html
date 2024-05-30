@@ -1,294 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abdou Kerbeb |linkedin</title>
-  </head>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="aside.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdou Kerbeb |linkedin</title>
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <nav>
-        <div class="header-left">
-          <img
-            id="logo-linkedin"
-            src="assets\linkedin.png"
-            alt="logo linkedin"
-          />
+  <header>
+    <nav>
+      <div class="header-left">
+        <img id="logo-linkedin" src="assets\linkedin.png" alt="logo linkedin" />
 
-          <div class="header-search">
-            <img src="assets\search-svgrepo-com.svg" alt="search logo" />
-            <input type="search" placeholder="Recherche" />
+        <div class="header-search">
+          <img src="assets\search-svgrepo-com.svg" alt="search logo" />
+          <input type="search" placeholder="Recherche" />
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="header-icons">
+          <img class="logo" src="assets\home-4-svgrepo-com.svg" alt="logo accueil" />
+          <p>Accueil</p>
+        </div>
+        <div class="header-icons">
+          <img class="logo" src="assets\person-team-svgrepo-com.svg" alt="logo réseau" />
+          <p>Réseau</p>
+        </div>
+        <div class="header-icons">
+          <img class="logo" src="assets\job-search-svgrepo-com.svg" alt="logo Offres d'emploi" />
+          <p>Offres d'emploi</p>
+        </div>
+        <div class="header-icons">
+          <img class="logo" src="assets\school-svgrepo-com.svg" alt="logo Linkedin Learning" />
+          <p>LinkedIn Learning</p>
+        </div>
+        <div class="header-icons">
+          <img class="logo" src="assets\message-circle-lines-svgrepo-com.svg" alt="logo messagerie" />
+          <p>Messagerie</p>
+        </div>
+        <div class="vertical-line"></div>
+        <a href="">S'inscrire</a>
+        <a class="identify" href="">S'identifier</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main body -->
+
+  <main>
+    <!-- colonne de gauche -->
+
+    <div class="left">
+      <!-- debut bloc bio -->
+
+      <section class="bio">
+        <div class="bio-bannière">
+          <img src="assets/banniere_bio.png" alt="" />
+        </div>
+        <div class="bio-photo">
+          <img src="assets\photo_abdou.jpg" alt="" />
+        </div>
+        <div class="bio-textes">
+          <div class="bio-left">
+            <a id="bio-abdou" href="">Abdou Kerbeb</a>
+            <p class="bio-description">
+              Formateur React / Node.js @WildCodeSchool / Développeur
+            </p>
+            <p class="bio-localisation">
+              Paris, Île-de-France, France
+              <a href="">&nbsp;&nbsp;Coordonnées</a>
+            </p>
+
+            <p><span class="bio-bold">Plus de 500 </span>relations</p>
+            <br />
+            <div class="bio-buttons">
+              <button class="bio-buttons-connect">
+                <img src="assets/se_connecter.svg" alt="" />Se connecter
+              </button>
+              <button class="bio-buttons-message">Message</button>
+              <button class="bio-buttons-plus">Plus</button>
+            </div>
+          </div>
+          <div class="bio-right">
+            <ul>
+              <li>
+                <img src="assets/wild_code_school_logo.jpg" alt="" />
+                <a href="">Wild Code School</a>
+              </li>
+              <li>
+                <img src="assets/42_logo.jpg" alt="" />
+                <a href="">42</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="header-right">
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\home-4-svgrepo-com.svg"
-              alt="logo accueil"
-            />
-            <p>Accueil</p>
+      </section>
+
+      <section class="formation">
+        <h2>Formation</h2>
+        <div class="formation-42">
+          <img src="assets/42_logo.jpg" alt="" />
+          <div class="formation-42-texte">
+            <ul>
+              <li><a href="">42</a></li>
+              <li>software engineer</li>
+              <li class="formation-date">2014 - 2017</li>
+            </ul>
           </div>
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\person-team-svgrepo-com.svg"
-              alt="logo réseau"
-            />
-            <p>Réseau</p>
-          </div>
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\job-search-svgrepo-com.svg"
-              alt="logo Offres d'emploi"
-            />
-            <p>Offres d'emploi</p>
-          </div>
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\school-svgrepo-com.svg"
-              alt="logo Linkedin Learning"
-            />
-            <p>LinkedIn Learning</p>
-          </div>
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\message-circle-lines-svgrepo-com.svg"
-              alt="logo messagerie"
-            />
-            <p>Messagerie</p>
-          </div>
-          <div class="vertical-line"></div>
-          <a href="">S'inscrire</a>
-          <a class="identify" href="">S'identifier</a>
         </div>
-      </nav>
-    </header>
-
-    <!-- main body -->
-
-    <main>
-      <!-- colonne de gauche -->
-
-      <div class="left">
-        <!-- debut bloc bio -->
-
-        <section class="bio">
-          <div class="bio-bannière">
-            <img src="assets/banniere_bio.png" alt="" />
+        <hr />
+        <div class="formation-ecole-de-conde">
+          <img src="assets/ecoledeconde_logo.jpeg" alt="" />
+          <div class="formation-ecole-de-conde-texte">
+            <ul>
+              <li><a>École de Condé</a></li>
+              <li class="formation-date">2014 - 2017</li>
+            </ul>
           </div>
-          <div class="bio-photo">
-            <img src="assets\photo_abdou.jpg" alt="" />
+        </div>
+      </section>
+
+      <section class="bloc-activité">
+        <div class="activité">
+          <h2>Activité</h2>
+          <p class="texte1">123 456 789 abonnés</p>
+        </div>
+        <div class="Abdou">
+          <h4>Abdou n'a encore rien publié</h4>
+          <p class="texte2">Les posts récents partagés par Abdou seront affichés ici.</p>
+        </div>
+        <div class="button">
+          <a href="">Toute l'activité →</a>
+        </div>
+      </section>
+
+      <!-- experience -->
+      <section class="exp">
+
+        <h2>Experience</h2>
+
+        <article>
+          <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp">
+          <div class="exp-text">
+            <h3>Formateur</h3>
+            <p>Wild Code School</p>
+            <p class="exp-date">
+              fevr 2018 - aujourd'hui 6 ans 4 moi <br> Region de Paris, France
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quas dolor fugiat laborum, saepe
+              recusandae nisi rerum mollitia dolorem dolorum esse quibusdam, quaerat possimus ad repellat ipsa.
+              Consectetur, deserunt commodi?
+              Consectetur error repudiandae doloremque harum in ipsa ut omnis, dolores velit qui, maxime non earum? Quos
+              nisi inventore ex distinctio quibusdam? Sunt nisi laboriosam non quia officiis nulla optio esse?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quisquam perspiciatis excepturi qui
+              obcaecati amet, illum aliquam sunt, officiis itaque autem impedit a alias minus cupiditate tempora quam
+              est adipisci?
+              Accusamus, maiores officiis excepturi magni omnis, doloremque animi cumque sapiente consequatur ipsam
+              temporibus eligendi, laudantium quisquam reprehenderit mollitia totam commodi corporis amet voluptas
+              soluta sequi tempora modi odit officia. Tenetur!
+            </p>
           </div>
-          <div class="bio-textes">
-            <div class="bio-left">
-              <a id="bio-abdou" href="">Abdou Kerbeb</a>
-              <p class="bio-description">
-                Formateur React / Node.js @WildCodeSchool / Développeur
-              </p>
-              <p class="bio-localisation">
-                Paris, Île-de-France, France
-                <a href="">&nbsp;&nbsp;Coordonnées</a>
-              </p>
+        </article>
 
-              <p><span class="bio-bold">Plus de 500 </span>relations</p>
-              <br />
-              <div class="bio-buttons">
-                <button class="bio-buttons-connect">
-                  <img src="assets/se_connecter.svg" alt="" />Se connecter
-                </button>
-                <button class="bio-buttons-message">Message</button>
-                <button class="bio-buttons-plus">Plus</button>
-              </div>
-            </div>
-            <div class="bio-right">
-              <ul>
-                <li>
-                  <img src="assets/wild_code_school_logo.jpg" alt="" />
-                  <a href="">Wild Code School</a>
-                </li>
-                <li>
-                  <img src="assets/42_logo.jpg" alt="" />
-                  <a href="">42</a>
-                </li>
-              </ul>
-            </div>
+        <article>
+          <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp">
+          <div class="exp-text">
+            <h3>Engineer Software</h3>
+            <p>Freelance Web Development</p>
+            <p class="exp-date">
+              2015 - 2022 7ans <br> Region de Paris, France
+            </p>
+            <p>
+              Conception de site internet :
+            </p>
+            <ul>
+              <li>Elaboration de projets</li>
+              <li>Conception et réalisation de chartres graphiques</li>
+              <li>Programmation</li>
+              <li>Mise en ligne de site internet</li>
+            </ul>
+            <p>
+              Langage informatique
+            </p>
+            <ul>
+              <li>C</li>
+              <li>javascript</li>
+              <li>SQL</li>
+              <li>PHP/Mysql</li>
+              <li>html5</li>
+            </ul>
           </div>
-        </section>
+        </article>
 
-        <section class="formation">
-          <h2>Formation</h2>
-          <div class="formation-42">
-            <img src="assets/42_logo.jpg" alt="" />
-            <div class="formation-42-texte">
-              <ul>
-                <li><a href="">42</a></li>
-                <li>software engineer</li>
-                <li class="formation-date">2014 - 2017</li>
-              </ul>
-            </div>
+        <article>
+          <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp">
+          <div class="exp-text">
+            <h3>Coordinateur pédagogique</h3>
+            <p>Espace 19</p>
+            <p class="exp-date">
+              janv 2008 - nov 2014 6 ans 11 moi <br> Region de Paris, France
+            </p>
           </div>
-          <hr />
-          <div class="formation-ecole-de-conde">
-            <img src="assets/ecoledeconde_logo.jpeg" alt="" />
-            <div class="formation-ecole-de-conde-texte">
-              <ul>
-                <li><a>École de Condé</a></li>
-                <li class="formation-date">2014 - 2017</li>
-              </ul>
-            </div>
+        </article>
+
+        <article>
+          <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp">
+          <div class="exp-text">
+            <h3>Formateur informatique</h3>
+            <p>eGeneration</p>
+            <p class="exp-date">
+              2007 - 2008 1an <br> Region de Paris, France
+            </p>
+            <p>
+              Tâches :
+            </p>
+            <ul>
+              <li>Animation de Formation</li>
+              <li>Création de contenu pédagogique</li>
+            </ul>
           </div>
-        </section>
-        
-        <section class="bloc-activité">
-          <div class="activité">
-              <h2>Activité</h2>
-              <p class="texte1">123 456 789 abonnés</p>
-          </div>
-          <div class="Abdou">
-              <h4>Abdou n'a encore rien publié</h4>
-              <p class="texte2">Les posts récents partagés par Abdou seront affichés ici.</p>
-          </div>    
-          <div class="button">
-              <a href="">Toute l'activité →</a>
-          </div>
-        </section>
+        </article>
 
-        <!-- experience -->
-        <section class="exp">
+      </section>
 
-          <h2>Experience</h2>
-
-          <article>
-            <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp">
-            <div class="exp-text">
-              <h3>Formateur</h3>
-              <p>Wild Code School</p>
-              <p class="exp-date">
-                fevr 2018 - aujourd'hui 6 ans 4 moi <br> Region de Paris, France
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quas dolor fugiat laborum, saepe recusandae nisi rerum mollitia dolorem dolorum esse quibusdam, quaerat possimus ad repellat ipsa. Consectetur, deserunt commodi?
-                Consectetur error repudiandae doloremque harum in ipsa ut omnis, dolores velit qui, maxime non earum? Quos nisi inventore ex distinctio quibusdam? Sunt nisi laboriosam non quia officiis nulla optio esse?
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quisquam perspiciatis excepturi qui obcaecati amet, illum aliquam sunt, officiis itaque autem impedit a alias minus cupiditate tempora quam est adipisci?
-                Accusamus, maiores officiis excepturi magni omnis, doloremque animi cumque sapiente consequatur ipsam temporibus eligendi, laudantium quisquam reprehenderit mollitia totam commodi corporis amet voluptas soluta sequi tempora modi odit officia. Tenetur!
-              </p>
-            </div>
-          </article>
-
-          <article>
-            <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp">
-            <div class="exp-text">
-              <h3>Engineer Software</h3>
-              <p>Freelance Web Development</p>
-              <p class="exp-date">
-                2015 - 2022 7ans <br> Region de Paris, France
-              </p>
-              <p>
-                Conception de site internet :
-              </p>
-              <ul>
-                <li>Elaboration de projets</li>
-                <li>Conception et réalisation de chartres graphiques</li>
-                <li>Programmation</li>
-                <li>Mise en ligne de site internet</li>
-              </ul>
-              <p>
-                Langage informatique
-              </p>
-              <ul>
-                <li>C</li>
-                <li>javascript</li>
-                <li>SQL</li>
-                <li>PHP/Mysql</li>
-                <li>html5</li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp">
-            <div class="exp-text">
-              <h3>Coordinateur pédagogique</h3>
-              <p>Espace 19</p>
-              <p class="exp-date">
-                janv 2008 - nov 2014  6 ans 11 moi <br> Region de Paris, France
-              </p>
-            </div>
-          </article>
-
-          <article>
-            <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp">
-            <div class="exp-text">
-              <h3>Formateur informatique</h3>
-              <p>eGeneration</p>
-              <p class="exp-date">
-                2007 - 2008 1an <br> Region de Paris, France
-              </p>
-              <p>
-                Tâches : 
-              </p>
-              <ul>
-                <li>Animation de Formation</li>
-                <li>Création de contenu pédagogique</li>
-              </ul>
-            </div>
-          </article>
-
-        </section>
-      
       <!--fin experience-->
 
-        <section class="competences">
-          <h2>Compétences</h2>
-          <h3>JavaScript</h3>
-          <div class="competences-description">
-            <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par Christophe Baume et 2 autres personnes très
-              compétentes dans ce domaine
-            </article>
-            <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par 6 collègues chez Wild Code School
-            </article>
-            <article>
-              <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />18
-              recommandations de compétences
-            </article>
-          </div>
-          <br />
-          <h3>Node.js</h3>
-          <div class="competences-description">
-            <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par Alexis Ducerf et 2 autres personnes très
-              compétentes dans ce domaine
-            </article>
-            <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par 4 collègues chez Wild Code School
-            </article>
-            <article>
-              <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />15
-              recommandations de compétences
-            </article>
-          </div>
-          <div class="competences-bouton">
-            <a href="">Afficher les 14 compétences &rarr;</a>
-          </div>
-        </section>
+      <section class="competences">
+        <h2>Compétences</h2>
+        <h3>JavaScript</h3>
+        <div class="competences-description">
+          <article>
+            <img src="assets\florian.jpg" alt="logo florian" />Compétences
+            recommandées par Christophe Baume et 2 autres personnes très
+            compétentes dans ce domaine
+          </article>
+          <article>
+            <img src="assets\florian.jpg" alt="logo florian" />Compétences
+            recommandées par 6 collègues chez Wild Code School
+          </article>
+          <article>
+            <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />18
+            recommandations de compétences
+          </article>
+        </div>
+        <br />
+        <h3>Node.js</h3>
+        <div class="competences-description">
+          <article>
+            <img src="assets\florian.jpg" alt="logo florian" />Compétences
+            recommandées par Alexis Ducerf et 2 autres personnes très
+            compétentes dans ce domaine
+          </article>
+          <article>
+            <img src="assets\florian.jpg" alt="logo florian" />Compétences
+            recommandées par 4 collègues chez Wild Code School
+          </article>
+          <article>
+            <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />15
+            recommandations de compétences
+          </article>
+        </div>
+        <div class="competences-bouton">
+          <a href="">Afficher les 14 compétences &rarr;</a>
+        </div>
+      </section>
 
-              <!-- Début section centres d'intérêt -->
+      <!-- Début section centres d'intérêt -->
 
       <section class="centres-dinteret">
         <h2 class="ci-titre">Centres d'intérêt</h2>
@@ -302,13 +286,13 @@
 
           <ul class="ci-colonne">
             <li>
-              <img
-                src="./assets/42_Logo.svg.png"
-                alt="logo 42">
+              <img src="./assets/42_Logo.svg.png" alt="logo 42">
             </li>
             <li>
               <ul class="ci-colonne-info">
-                <li><bold>42</bold></li>
+                <li>
+                  <bold>42</bold>
+                </li>
                 <li>76 827 abonnés</li>
                 <li><button class="bouton suivi" type="button">+ Suivre</button></li>
               </ul>
@@ -317,13 +301,13 @@
 
           <ul class="ci-colonne">
             <li>
-              <img
-                src="./assets/netinvestissement_logo.jpg"
-                alt="logo netinvestissement">
+              <img src="./assets/netinvestissement_logo.jpg" alt="logo netinvestissement">
             </li>
             <li>
               <ul class="ci-colonne-info">
-                <li><bold>Netinvestissement</bold></li>
+                <li>
+                  <bold>Netinvestissement</bold>
+                </li>
                 <li>5 819 abonnés</li>
                 <li><button class="bouton suivi" type="button">+ Suivre</button></li>
               </ul>
@@ -334,71 +318,120 @@
 
       <!-- fin section centres d'interet -->
 
-<!-- Fin colonne de gauche -->
-      </div>
+      <!-- Fin colonne de gauche -->
+    </div>
 
 
-      
-      <!-- colonne de droite -->
-      
-      <div class="">
-      <div class="aside">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-          illo voluptate? Aliquid dolores veritatis explicabo beatae cum at
-          iusto adipisci suscipit commodi sed? Modi officia placeat corporis
-          suscipit natus iste.
-        </p>
+    <!-- colonne de droite -->
 
-        <p>fgmdkefjg</p>
-      </div>
-    </main>
 
-    <!-- début du footer -->
-
-    <footer>
-      <ul class="footer-colonne1">
-        <li>Infos</li>
-        <li>Directives de la communauté</li>
-        <li>Conditions générales et confidentialité</li>
-        <li>Sales Solutions</li>
-        <li>Centre de sécurité</li>
-      </ul>
-
-      <ul class="footer-colonne2">
-        <li>Accessibilité</li>
-        <li>Carrières</li>
-        <li>Préférences Pubs</li>
-        <li>Mobile</li>
-      </ul>
-
-      <ul class="footer-colonn3">
-        <li>Talent Solutions</li>
-        <li>Marketing Solutions</li>
-        <li>Publicité</li>
-        <li>Petites entreprises</li>
-      </ul>
+    <div class="box-profils">
+      <h2>
+        Autres profils similaires
+      </h2>
 
       <ul>
-        <li>
-          <img
-            src="./assets/footer_help.svg"
-            alt="symbole point d'interrogation"
-          />
-          Des questions ?>
-        </li>
-        <li>
-          <img src="./assets/footer_nut.svg" alt="symbole écrou" />
-          Gérez votre compte et votre confidentialité
-        </li>
-        <li>
-          <img src="./assets/footer_shield.svg" alt="symbole bouclier" />
-          Transparence des recommandations
-        </li>
-      </ul>
-    </footer>
+        <li class="profil-autre">
+          <!-- <article class="profil-autre"> -->
 
-    <!-- Fin du footer -->
-  </body>
-  <script src="script.js"></script>
+          <div class="box-profil-img">
+            <img class="profil-autre-img" src="/assets/photo_abdou.jpg" alt="">
+          </div>
+
+          <div class=box-profil-autre-text>
+            <h2 class="autre-profil">
+              Prénom nom
+            </h2>
+            <h3>
+              fonction
+            </h3>
+            <p>eiugvfvhboihboiibbipnpl<br>
+              khhmhhlkhlhpehpm</p>
+            <button class="profil-autre-button">Voire le profil</button>
+
+
+        </li>
+        <hr>
+
+        <li class="profil-autre">
+          <!-- <article class="profil-autre"> -->
+
+          <div class="box-profil-img">
+            <img class="profil-autre-img" src="/assets/photo_abdou.jpg" alt="">
+          </div>
+
+          <div class=box-profil-autre-text>
+            <h2 class="autre-profil">
+              Prénom nom
+            </h2>
+            <h3>
+              fonction
+            </h3>
+            <p>eiugvfvhboihboiibbipnpl<br>
+              khhmhhlkhlhpehpm</p>
+            <button class="profil-autre-button">Voire le profil</button>
+
+
+        </li>
+        <hr>
+
+      </ul>
+
+    </div>
+
+
+
+
+
+
+
+  </main>
+
+
+
+  <!-- début du footer -->
+
+  <footer>
+    <ul class="footer-colonne1">
+      <li>Infos</li>
+      <li>Directives de la communauté</li>
+      <li>Conditions générales et confidentialité</li>
+      <li>Sales Solutions</li>
+      <li>Centre de sécurité</li>
+    </ul>
+
+    <ul class="footer-colonne2">
+      <li>Accessibilité</li>
+      <li>Carrières</li>
+      <li>Préférences Pubs</li>
+      <li>Mobile</li>
+    </ul>
+
+    <ul class="footer-colonn3">
+      <li>Talent Solutions</li>
+      <li>Marketing Solutions</li>
+      <li>Publicité</li>
+      <li>Petites entreprises</li>
+    </ul>
+
+    <ul>
+      <li>
+        <img src="./assets/footer_help.svg" alt="symbole point d'interrogation" />
+        Des questions ?>
+      </li>
+      <li>
+        <img src="./assets/footer_nut.svg" alt="symbole écrou" />
+        Gérez votre compte et votre confidentialité
+      </li>
+      <li>
+        <img src="./assets/footer_shield.svg" alt="symbole bouclier" />
+        Transparence des recommandations
+      </li>
+    </ul>
+  </footer>
+
+  <!-- Fin du footer -->
+</body>
+<script src="script.js"></script>
+
 </html>
