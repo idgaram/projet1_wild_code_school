@@ -221,6 +221,12 @@ nav {
   }
 
   .header-right {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+    margin-left: 1rem;
+    align-items: center;
+
     img {
       width: 27px;
       height: 27px;
@@ -233,13 +239,6 @@ nav {
       height: 3.3rem;
       margin-right: 0.5rem;
     }
-
-    display: flex;
-    flex-direction: row;
-    padding: 0 2rem;
-    margin-left: 1rem;
-
-    align-items: center;
 
     p {
       font-size: 0.73rem;
@@ -618,7 +617,7 @@ nav {
   flex-direction: column;
 
   .ci-titre {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .ci-onglets {
@@ -683,19 +682,15 @@ nav {
 
 
 .competences {
+  background-color: white;
   color: var(--clr-dark-grey);
   margin-top: 0.8rem;
-  /* background-image: url('assets/wax.jpg'); */
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
   padding: 1.3rem 1.5rem 0 1.5rem;
-
 }
 
-.competences-content {
-  background-color: rgb(19, 83, 160);
-  opacity: 1;
-}
+
 
 h2 {
   font-weight: 600;
@@ -742,7 +737,7 @@ h2 {
       margin: -10 -26rem; */
   }
 }
-}
+
 
 .aside {
   grid-column: 2;
@@ -756,14 +751,11 @@ h2 {
     } */
 }
 
-footer {
-  /* position: absolute; */
-  bottom: 1px;
-}
 
 footer {
   /* position: absolute; */
   /* bottom: 10rem; */
+  bottom: 1px;
   padding: 0 23rem;
   display: flex;
   bottom: 1px;
