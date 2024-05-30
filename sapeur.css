@@ -166,12 +166,19 @@ body {
   min-height: 100vh;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
+
 main {
   display: grid;
   grid-template-columns: 77.5% 22.5%;
   margin: 4.7rem 31rem 3rem 24.2rem;
   gap: 2rem;
 }
+
+/* BLOC HEADER */
 
 nav {
   background-color: white;
@@ -306,6 +313,8 @@ nav {
 .left {
   grid-column: 1;
 }
+
+/* BLOC BIO */
 
 .bio {
   background-color: white;
@@ -483,53 +492,7 @@ nav {
   }
 }
 
-.formation {
-  padding: 2rem 2rem;
-  margin-top: 0.5rem;
-  background-color: white;
-  border-radius: 0.5rem;
-  border: solid 1px var(--clr-border);
-  
-  h2 {
-    font-size: 1.35rem;
-    font-weight: 700;
-  }
-
-  hr {
-    border: 0.5px solid var(--clr-border);
-  }
-
-  img {
-    width: 45px;
-    height: 45px;
-  }
-
-  .formation-date {
-    color: var(--clr-light-grey);
-  }
-
-  .formation-42 {
-    margin: 1rem 0;
-    display: flex;
-    align-items: center;
-    line-height: 1.6rem;
-
-    .formation-42-texte {
-      margin-left: 0.7rem;
-    }
-  }
-
-  .formation-ecole-de-conde {
-    margin: 1rem 0;
-    display: flex;
-    align-items: center;
-    line-height: 1.6rem;
-
-    .formation-ecole-de-conde-texte {
-      margin-left: 0.7rem;
-    }
-  }
-}
+/* BLOC ACTIVITE */
 
 .bloc-activité {
   margin-top: 1rem;
@@ -579,6 +542,8 @@ nav {
   }
 }
 
+/* BLOC XP */
+
 .exp {
   margin-top: 1rem;
   border-radius: 0.5rem;
@@ -613,105 +578,75 @@ nav {
   }
 }
 
-.centres-dinteret {
-  display: flex;
-  flex-direction: column;
+/* BLOC FORMATION */
 
-  .ci-titre {
-    font-size: 2rem;
-  }
-
-  .ci-onglets {
-    display: flex;
-    flex-direction: row;
-    /* padding: 0.5rem; */
-
-    li {
-      display: flex;
-      flex-direction: row;
-      padding: 2rem 1rem 2rem 0;
-    }
-  }
-}
-
-.centres-dinteret {
-  margin-top: 1rem;
-  padding: 1.3rem 1.5rem 0 1.5rem;
+.formation {
+  padding: 2rem 2rem;
+  margin-top: 0.5rem;
   background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
-
-  .ci-ent-suivies {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    line-height: 1.5rem;
+  
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
   }
 
-  .ci-colonne {
+  hr {
+    border: 0.5px solid var(--clr-border);
+  }
+
+  img {
+    width: 2.3rem;
+    /* height: 45px; */
+  }
+
+  .formation-date {
+    color: var(--clr-light-grey);
+  }
+
+  .formation-42 {
+    margin: 1rem 0;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    line-height: 1.6rem;
 
-    img {
-      width: 8rem;
-      padding-right: 2rem;
+    .formation-42-texte {
+      margin-left: 0.7rem;
     }
+  }
 
-    .ci-colonne-info {
-      display: flex;
-      flex-direction: column;
+  .formation-ecole-de-conde {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6rem;
 
-      li:first-child {
-        font-weight: bold;
-
-        img {
-          width: 8rem;
-          padding-right: 2rem;
-        }
-
-        button {
-          border: solid 1px var(--clr-light-grey);
-          border-radius: 1.5rem;
-          text-decoration: none;
-          width: 4rem;
-          height: 2rem;
-        }
-      }
+    .formation-ecole-de-conde-texte {
+      margin-left: 0.7rem;
     }
   }
 }
 
+/* BLOC COMPETENCES */
 
 .competences {
-  color: var(--clr-dark-grey);
   margin-top: 0.8rem;
-  /* background-image: url('assets/wax.jpg'); */
+  background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
-  padding: 1.3rem 1.5rem 0 1.5rem;
+  padding: 1.3rem 1.5rem 1rem 1.5rem;
 
-}
-
-.competences-content {
-  background-color: rgb(19, 83, 160);
-  opacity: 1;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  margin-bottom: 0.7rem;
-  opacity: 0.3;
 }
 
 .competences-description {
   font-size: 0.8rem;
   margin-top: 0.7rem;
+  color: var(--clr-dark-grey);
+
 
   img {
-    width: 25px;
-    height: 25px;
+    width: 2.2rem;
     border-radius: 1rem;
     margin: 0.5rem 0.6rem 0.5rem 0;
   }
@@ -742,34 +677,89 @@ h2 {
       margin: -10 -26rem; */
   }
 }
+
+/* BLOC CENTRES D'INTERET */
+
+.centres-dinteret {
+  display: flex;
+  flex-direction: column;
+
+  .ci-onglets {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      padding: 2rem 1rem 2rem 0;
+    }
+  }
 }
 
-.aside {
-  grid-column: 2;
+.centres-dinteret {
+  margin-top: 1rem;
+  padding: 1.3rem 1.5rem 1rem 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: solid 1px var(--clr-border);
 
-  /* a{
-      display: inline-block;
-      position: relative;
-      z-index: 1;
-      padding: 2em;
-      margin: -2em;
-    } */
+  .ci-onglets {
+    li:first-child {
+      font-weight: bold;
+      color: rgb(17, 174, 17);
+    }
+    li:nth-child(2n) {
+      font-weight: bold;
+      color: rgb(227, 227, 14);
+    }
+    li:last-child {
+      font-weight: bold;
+      color: red;
+    }
+  }
+
+  .ci-ent-suivies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 1.5rem;
+
+    .ci-colonne {
+      display: flex;
+      flex-direction: row;
+
+      img {
+        width: 4rem;
+        padding-right: 2rem;
+      }
+
+      .ci-colonne-info {
+        display: flex;
+        flex-direction: column;
+
+      li:first-child {
+        font-weight: bold;
+
+        img {
+          width: 8rem;
+          padding-right: 2rem;
+        }
+      }
+    }
+  }
 }
+}
+
+
+/* BLOC FOOTER */
 
 footer {
-  /* position: absolute; */
-  bottom: 1px;
-}
-
-footer {
-  /* position: absolute; */
-  /* bottom: 10rem; */
   padding: 0 23rem;
   display: flex;
   bottom: 1px;
-  line-height: 2rem;
+  line-height: 1rem;
   margin-bottom: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--clr-dark-grey);
 
   ul {
@@ -786,10 +776,24 @@ footer {
       padding: 0 2rem;
 
       img {
-        width: 2rem;
+        width: 1.5rem;
         position: relative;
         bottom: 0.5rem;
       }
     }
   }
+}
+
+/* BLOC ASIDE */
+
+.aside {
+  grid-column: 2;
+
+  /* a{
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      padding: 2em;
+      margin: -2em;
+    } */
 }
