@@ -27,43 +27,51 @@
           <div class="header-icons">
             <img
               class="logo"
-              src="assets\home-4-svgrepo-com.svg"
+              src="assets/play-back-outline.svg"
               alt="logo accueil"
             />
-            <p>Accueil</p>
+            <p></p>
           </div>
-          <div class="header-icons">
+          <audio id="myAudio">
+            <source src="coffin_dance.mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <button
+            class="header-icons bouton-pause"
+            id="bouton-pause"
+            type="button"
+          >
             <img
               class="logo"
-              src="assets\person-team-svgrepo-com.svg"
+              src="assets/pause-outline.svg"
               alt="logo réseau"
             />
-            <p>Réseau</p>
+            <p></p>
+          </button>
+          <button class="header-icons bouton" id="bouton" type="button">
+            <img
+              class="logo"
+              src="assets/play-outline.svg"
+              alt="logo Offres d'emploi"
+            />
+            <p></p>
+          </button>
+          <div class="header-icons">
+            <img
+              class="logo"
+              src="assets/play-forward-outline.svg"
+              alt="logo Linkedin Learning"
+            />
+            <p></p>
           </div>
           <div class="header-icons">
             <img
               class="logo"
-              src="assets\job-search-svgrepo-com.svg"
-              alt="logo Offres d'emploi"
-            />
-            <p>Offres d'emploi</p>
-          </div>
-          <button class="header-icons" id="bouton" type="button">
-            <img
-              class="logo"
-              src="assets\school-svgrepo-com.svg"
-              alt="logo Linkedin Learning"
-            />
-            <p>LinkedIn Learning</p>
-          </button>
-          <button class="header-icons" id="bouton-pause" type="button">
-            <img
-              class="logo"
-              src="assets\message-circle-lines-svgrepo-com.svg"
+              src="assets/stop-outline.svg"
               alt="logo messagerie"
             />
-            <p>Messagerie</p>
-          </button>
+            <p></p>
+          </div>
           <div class="vertical-line"></div>
           <a href="">S'inscrire</a>
           <a class="identify" href="">S'identifier</a>
@@ -81,10 +89,13 @@
 
         <section class="bio">
           <div class="bio-bannière">
-            <img src="assets/banniere_bio.png" alt="" />
+            <img
+              src="assets/mes-beaux-sapeurs-congolais-congo-brazzaville-2009.jpeg"
+              alt=""
+            />
           </div>
           <div class="bio-photo">
-            <img src="assets\photo_abdou.jpg" alt="" />
+            <img src="assets/portrait_sapeur.jpg" alt="" />
           </div>
           <div class="bio-textes">
             <div class="bio-left">
@@ -97,7 +108,6 @@
                 <a href="">&nbsp;&nbsp;Coordonnées</a>
               </p>
 
-              <audio src="coffin_dance.mp3" id="myAudio"></audio>
               <p><span class="bio-bold">Plus de 500 </span>relations</p>
               <br />
               <div class="bio-buttons">
@@ -144,89 +154,115 @@
           <h2>Experience</h2>
 
           <article>
-            <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp" />
+            <img
+              src="assets/logo-musique.jpeg"
+              alt="logowild"
+              class="logo-exp"
+            />
             <div class="exp-text">
-              <h3>Formateur</h3>
-              <p>Wild Code School</p>
+              <h3>Musicien</h3>
+              <p>Les Ambianceurs Élégants</p>
               <p class="exp-date">
-                fevr 2018 - aujourd'hui 6 ans 4 moi <br />
-                Region de Paris, France
+                févr. 2018 - aujourd’hui <br />
+                Brazzaville, Congo
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Laudantium quas dolor fugiat laborum, saepe recusandae nisi
-                rerum mollitia dolorem dolorum esse quibusdam, quaerat possimus
-                ad repellat ipsa. Consectetur, deserunt commodi? Consectetur
-                error repudiandae doloremque harum in ipsa ut omnis, dolores
-                velit qui, maxime non earum? Quos nisi inventore ex distinctio
-                quibusdam? Sunt nisi laboriosam non quia officiis nulla optio
-                esse?
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                quisquam perspiciatis excepturi qui obcaecati amet, illum
-                aliquam sunt, officiis itaque autem impedit a alias minus
-                cupiditate tempora quam est adipisci? Accusamus, maiores
-                officiis excepturi magni omnis, doloremque animi cumque sapiente
-                consequatur ipsam temporibus eligendi, laudantium quisquam
-                reprehenderit mollitia totam commodi corporis amet voluptas
-                soluta sequi tempora modi odit officia. Tenetur!
-              </p>
-            </div>
-          </article>
-
-          <article>
-            <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp" />
-            <div class="exp-text">
-              <h3>Engineer Software</h3>
-              <p>Freelance Web Development</p>
-              <p class="exp-date">
-                2015 - 2022 7ans <br />
-                Region de Paris, France
-              </p>
-              <p>Conception de site internet :</p>
+              <p>Tâches :</p>
               <ul>
-                <li>Elaboration de projets</li>
-                <li>Conception et réalisation de chartres graphiques</li>
-                <li>Programmation</li>
-                <li>Mise en ligne de site internet</li>
-              </ul>
-              <p>Langage informatique</p>
-              <ul>
-                <li>C</li>
-                <li>javascript</li>
-                <li>SQL</li>
-                <li>PHP/Mysql</li>
-                <li>html5</li>
+                <li>
+                  Dans l'univers enjoué de la musique sapeur, j'ai pris part à
+                  une symphonie de style et d'élégance en tant que membre du
+                  groupe "Les Ambianceurs Élégants". Mon rôle ? Faire vibrer les
+                  cœurs et les âmes avec des rythmes envoûtants et des mélodies
+                  ensorcelantes, le tout empreint d'une touche de raffinement
+                  sapeur
+                </li>
+                <li>
+                  Électriser les foules avec nos prestations scéniques hautement
+                  stylisées, où l'élégance de nos tenues rivalise avec
+                  l'intensité de notre musique.
+                </li>
               </ul>
             </div>
           </article>
-
           <article>
-            <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp" />
+            <img
+              src="assets/logo-influenceur.jpeg"
+              alt="logowild"
+              class="logo-exp"
+            />
             <div class="exp-text">
-              <h3>Coordinateur pédagogique</h3>
-              <p>Espace 19</p>
+              <h3>Enfluenceur/Blogueur</h3>
+              <p>SapeGuru</p>
               <p class="exp-date">
-                janv 2008 - nov 2014 6 ans 11 moi <br />
+                2015 - 2022 · 7 ans <br />
                 Region de Paris, France
               </p>
+              <p>Tâches :</p>
+              <ul>
+                <li>
+                  Plongé dans l'univers flamboyant de la mode sapeur, j'ai
+                  jonglé entre élégance et excentricité avec une touche d'humour
+                  sur la plateforme "SapeGuru". Mon rôle ? Partager mes coups de
+                  cœur vestimentaires, mes astuces stylées et mes réflexions
+                  hilarantes sur le monde de la Sape.
+                </li>
+                <li>
+                  Éclabousser la toile de mes looks délirants et sophistiqués,
+                  inspirant mes followers à adopter le style sapeur avec audace
+                  et panache.
+                </li>
+              </ul>
             </div>
           </article>
 
           <article>
-            <img src="assets/42_logo.jpg" alt="logowild" class="logo-exp" />
+            <img src="assets/xuly.ico" alt="logowild" class="logo-exp" />
             <div class="exp-text">
-              <h3>Formateur informatique</h3>
-              <p>eGeneration</p>
+              <h3>Styliste</h3>
+              <p>Xuly.Bët</p>
+              <p class="exp-date">
+                janv. 2008 - nov. 2014 · 6 ans 11 mois <br />
+                Region de Paris, France
+              </p>
+              <p>Tâches :</p>
+              <ul>
+                <li>
+                  Conception et création de pièces uniques et originales, en
+                  utilisant des tissus africains traditionnels et en
+                  expérimentant avec des coupes modernes et des motifs
+                  innovants.
+                </li>
+                <li>
+                  Coordination des événements de la marque, notamment les
+                  défilés de mode et les présentations, où j'ai eu l'occasion de
+                  mettre en valeur mes créations et de partager ma vision
+                  artistique avec un public international.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article>
+            <img src="assets/connivence.png" alt="logowild" class="logo-exp" />
+            <div class="exp-text">
+              <h3>Vendeur</h3>
+              <p>Connivence</p>
               <p class="exp-date">
                 2007 - 2008 1an <br />
                 Region de Paris, France
               </p>
               <p>Tâches :</p>
               <ul>
-                <li>Animation de Formation</li>
-                <li>Création de contenu pédagogique</li>
+                <li>
+                  Accueil et assistance personnalisée à une clientèle
+                  diversifiée, allant des passionnés de mode aux novices
+                  intéressés par la Sape.
+                </li>
+                <li>
+                  Expertise dans la présentation des différentes pièces de la
+                  collection, mettant en avant la qualité des tissus, les coupes
+                  impeccables et les motifs uniques.
+                </li>
               </ul>
             </div>
           </article>
@@ -237,22 +273,26 @@
         <section class="formation">
           <h2>Formation</h2>
           <div class="formation-42">
-            <img src="assets/42_logo.jpg" alt="" />
+            <img src="/projet1_wild_code_school/assets/afroDanse.png" alt="" />
             <div class="formation-42-texte">
               <ul>
-                <li><a href="">42</a></li>
-                <li>software engineer</li>
+                <li><a href="">Afro Danse</a></li>
+                <li>Danse africaine traditionnelle</li>
                 <li class="formation-date">2014 - 2017</li>
               </ul>
             </div>
           </div>
           <hr />
           <div class="formation-ecole-de-conde">
-            <img src="assets/ecoledeconde_logo.jpeg" alt="" />
+            <img
+              src="/projet1_wild_code_school/assets/Edukiya_Logos.webp"
+              alt=""
+            />
             <div class="formation-ecole-de-conde-texte">
               <ul>
-                <li><a>École de Condé</a></li>
-                <li class="formation-date">2014 - 2017</li>
+                <li><a href="">La mode sape</a></li>
+                <li><a>Institut de Coupe de Couture et de Mode</a></li>
+                <li class="formation-date">2017 - 2020</li>
               </ul>
             </div>
           </div>
@@ -262,32 +302,28 @@
 
         <section class="competences">
           <h2>Compétences</h2>
-          <h3>JavaScript</h3>
+          <h3>Stylisme</h3>
           <div class="competences-description">
             <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par Christophe Baume et 2 autres personnes très
-              compétentes dans ce domaine
+              <img
+                src="\assets\jocelyn-armel-10.15-2015-7.jpg"
+                alt="logo florian"
+              />Compétences recommandées par Jocelyn Armel, dit le Bachelor et
+              287 autres personnes très compétentes dans ce domaine
             </article>
-            <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par 6 collègues chez Wild Code School
-            </article>
-            <article>
-              <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />18
-              recommandations de compétences
-            </article>
+            <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />15
+            recommandations de compétences
           </div>
           <br />
-          <h3>Node.js</h3>
+          <h3>Coupé-décalé</h3>
           <div class="competences-description">
             <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par Alexis Ducerf et 2 autres personnes très
+              <img src="assets\KL.jpg" alt="logo florian" />Compétences
+              recommandées par Mwamba Lagerfel et 2 autres personnes très
               compétentes dans ce domaine
             </article>
             <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
+              <img src="assets\Mama.jpg" alt="logo florian" />Compétences
               recommandées par 4 collègues chez Wild Code School
             </article>
             <article>
@@ -313,14 +349,19 @@
           <div class="ci-ent-suivies">
             <ul class="ci-colonne">
               <li>
-                <img src="assets\poulet.webp" alt="logo 42" />
+                <a href="assets/roi_de_la_sape_tr.JPG" target="_blank">
+                  <img
+                    src="assets/roi_de_la_sape.jpg"
+                    alt="Sapeur de Kinshasa"
+                    title="Cliquez pour agrandir"
+                /></a>
               </li>
               <li>
                 <ul class="ci-colonne-info">
-                  <li><bold>Poulet</bold></li>
-                  <li>76 827 abonnés</li>
+                  <li><bold>Le roi de la sape</bold></li>
+                  <li>76 827 costards</li>
                   <li>
-                    <button class="bouton suivi" type="button">+ Suivre</button>
+                    <button class="bouton-suivi">kiffé grave</button>
                   </li>
                 </ul>
               </li>
@@ -328,17 +369,19 @@
 
             <ul class="ci-colonne">
               <li>
-                <img
-                  src="./assets/netinvestissement_logo.jpg"
-                  alt="logo netinvestissement"
-                />
+                <a href="assets/sapeurs_ecossais_tr.jpg" target="_blank">
+                  <img
+                    src="./assets/sapeurs_ecossais.jpg"
+                    alt="image d'un sapeur africain"
+                    title="Cliquez pour agrandir"
+                /></a>
               </li>
               <li>
                 <ul class="ci-colonne-info">
-                  <li><bold>Netinvestissement</bold></li>
-                  <li>5 819 abonnés</li>
+                  <li><bold>La sapologie Africaine</bold></li>
+                  <li>5 819 rollex</li>
                   <li>
-                    <button class="bouton suivi" type="button">+ Suivre</button>
+                    <button class="bouton-suivi">kiffé grave</button>
                   </li>
                 </ul>
               </li>
@@ -370,6 +413,7 @@
               <button class="profil-autre-button">Voir le profil</button>
             </div>
           </div>
+
           <hr />
           <div class="profil-autre">
             <div class="box-profil-img">
@@ -387,6 +431,7 @@
             </div>
           </div>
           <hr />
+
           <div class="profil-autre">
             <div class="box-profil-img">
               <img
@@ -401,9 +446,6 @@
               <p>Un sapologue ne se vante pas, il se distingue.</p>
               <button class="profil-autre-button">Voir le profil</button>
             </div>
-          </div>
-       
-          
           </div>
         </div>
       </div>
@@ -428,7 +470,7 @@
         <li>Mobile</li>
       </ul>
 
-      <ul class="footer-colonn3">
+      <ul class="footer-colonne3">
         <li>Talent Solutions</li>
         <li>Marketing Solutions</li>
         <li>Publicité</li>
