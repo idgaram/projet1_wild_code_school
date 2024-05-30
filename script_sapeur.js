@@ -7,6 +7,11 @@ bouton.addEventListener("click", () => {
   musique.play();
 });
 
+let boutonPause = document.getElementById("bouton-pause");
+boutonPause.addEventListener("click", () => {
+  musique.pause();
+});
+
 // function playAudio() {
 //   musique.play();
 //   //   alert("click");

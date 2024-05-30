@@ -448,6 +448,7 @@ nav {
           justify-content: center;
           font-weight: bold;
           padding: 0.5rem;
+          margin-right: 0.7rem;
         }
 
         .bio-buttons-plus:hover {
@@ -456,6 +457,48 @@ nav {
           color: black;
           cursor: pointer;
           transition: 0.1s ease-in;
+        }
+
+        .bio-boutons-musique {
+          background-color: red;
+          border: solid 1px var(--clr-dark-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          color: var(--clr-fond);
+          width: 14rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          padding: 0.5rem;
+          margin-right: 0.7rem;
+          animation-iteration-count: infinite;
+        }
+
+        .bio-boutons-musique:hover {
+          background-color: var(--clr-grey-hover);
+          border: solid 1px black;
+          color: black;
+          cursor: pointer;
+          transform: rotate(180);
+          transition: 0.1s ease-in;
+        }
+
+        .bio-boutons-stop {
+          background-color: white;
+          border: solid 1px var(--clr-dark-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          color: var(--clr-dark-grey);
+          width: 8rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          padding: 0.5rem;
+          margin-right: 0.7rem;
         }
       }
     }
