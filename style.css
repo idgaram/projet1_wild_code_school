@@ -649,7 +649,7 @@ nav {
     flex-direction: row;
 
     img {
-      width: 8rem;
+      width: 5rem;
       padding-right: 2rem;
     }
 
@@ -684,7 +684,7 @@ footer {
   bottom: 1px;
   line-height: 2rem;
   margin-bottom: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color: var(--clr-dark-grey);
 
   ul {
@@ -701,7 +701,7 @@ footer {
       padding: 0 2rem;
 
       img {
-        width: 2rem;
+        width: 1rem;
         position: relative;
         bottom: 0.5rem;
       }

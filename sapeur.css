@@ -663,14 +663,6 @@ nav {
           width: 8rem;
           padding-right: 2rem;
         }
-
-        button {
-          border: solid 1px var(--clr-light-grey);
-          border-radius: 1.5rem;
-          text-decoration: none;
-          width: 4rem;
-          height: 2rem;
-        }
       }
     }
   }
@@ -779,3 +771,4 @@ footer {
   /* position: absolute; */
   bottom: 1px;
 }
+
