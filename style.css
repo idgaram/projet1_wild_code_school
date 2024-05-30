@@ -606,6 +606,7 @@ nav {
    }
  }
 
+<<<<<<< HEAD
  .formation-ecole-de-conde {
    margin: 1rem 0;
    display: flex;
@@ -616,6 +617,74 @@ nav {
      margin-left: 0.7rem;
    }
  }
+=======
+    img {
+      width: 5rem;
+      padding-right: 2rem;
+    }
+
+    .ci-colonne-info {
+      display: flex;
+      flex-direction: column;
+
+      li:first-child {
+        font-weight: bold;
+        img {
+          width: 8rem;
+          padding-right: 2rem;
+        }
+
+        button {
+          border: solid 1px var(--clr-light-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          width: 4rem;
+          height: 2rem;
+        }
+      }
+    }
+  }
+}
+
+/* BLOC FOOTER */
+
+footer {
+  /* position: absolute; */
+  /* bottom: 10rem; */
+  padding: 0 23rem;
+  display: flex;
+  bottom: 1px;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.5rem;
+  color: var(--clr-dark-grey);
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      padding: 0 2rem;
+
+      img {
+        width: 1rem;
+        position: relative;
+        bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+footer {
+  /* position: absolute; */
+  bottom: 1px;
+>>>>>>> 2bf9cf35d1d304846794e78c3657e499ca4f6be9
 }
 
 /* BLOC COMPETENCES */
