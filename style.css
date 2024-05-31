@@ -172,7 +172,7 @@ main {
   gap: 2rem;
 
     h2 {
-      width : 3rem;
+      font-size : 1.5rem;
     }
 }
 
@@ -638,11 +638,6 @@ nav {
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
 
-  h2 {
-    font-size: 1.35rem;
-    font-weight: 700;
-  }
-
   hr {
     border: 0.5px solid var(--clr-border);
   }
@@ -682,22 +677,14 @@ nav {
 /* BLOC COMPETENCES */
 
 .competences {
-  color: var(--clr-dark-grey);
+  /* color: var(--clr-dark-grey); */
   margin-top: 0.8rem;
   background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
   padding: 1.3rem 1.5rem 0 1.5rem;
 
-  h2 {
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    margin-bottom: 0.7rem;
-  }
-
   .competences-description {
-    font-size: 0.8rem;
     margin-top: 0.7rem;
 
     img {
@@ -740,15 +727,15 @@ nav {
 .centres-dinteret {
   display: flex;
   flex-direction: column;
-
-  .ci-titre {
-    font-size: 2rem;
-  }
+  margin-top: 1rem;
+  padding: 1.3rem 1.5rem 0 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: solid 1px var(--clr-border);
 
   .ci-onglets {
     display: flex;
     flex-direction: row;
-    /* padding: 0.5rem; */
 
     li {
       display: flex;
@@ -756,14 +743,6 @@ nav {
       padding: 2rem 1rem 2rem 0;
     }
   }
-}
-
-.centres-dinteret {
-  margin-top: 1rem;
-  padding: 1.3rem 1.5rem 0 1.5rem;
-  background-color: white;
-  border-radius: 0.5rem;
-  border: solid 1px var(--clr-border);
 
   .ci-ent-suivies {
     display: flex;
@@ -777,7 +756,7 @@ nav {
     flex-direction: row;
 
     img {
-      width: 8rem;
+      width: 5rem;
       padding-right: 2rem;
     }
 
@@ -791,14 +770,6 @@ nav {
           width: 8rem;
           padding-right: 2rem;
         }
-
-        button {
-          border: solid 1px var(--clr-light-grey);
-          border-radius: 1.5rem;
-          text-decoration: none;
-          width: 4rem;
-          height: 2rem;
-        }
       }
     }
   }
@@ -807,14 +778,12 @@ nav {
 /* BLOC FOOTER */
 
 footer {
-  /* position: absolute; */
-  /* bottom: 10rem; */
   padding: 0 23rem;
   display: flex;
   bottom: 1px;
-  line-height: 2rem;
+  line-height: 1rem;
   margin-bottom: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--clr-dark-grey);
 
   ul {
@@ -831,19 +800,13 @@ footer {
       padding: 0 2rem;
 
       img {
-        width: 2rem;
+        width: 1.5rem;
         position: relative;
         bottom: 0.5rem;
       }
     }
   }
 }
-
-footer {
-  /* position: absolute; */
-  bottom: 1px;
-}
-
 
 /* BLOC ASIDE */
 
