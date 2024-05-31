@@ -82,7 +82,6 @@ section,
 summary,
 time,
 mark,
-audio,
 video {
   margin: 0;
   padding: 0;
@@ -170,7 +169,6 @@ h2 {
   font-size: 1.5rem;
 }
 
-
 main {
   display: grid;
   grid-template-columns: 77.5% 22.5%;
@@ -194,6 +192,23 @@ nav {
 
   input {
     border: 0;
+  }
+
+  /* .bouton {
+    animation-name: sapeShake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }
+  .bouton-pause {
+    animation-name: sapeShake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  } */
+
+  button {
+    border: none;
+    background-color: white;
+    width: 2rem;
   }
 
   .header-left {
@@ -262,10 +277,16 @@ nav {
       align-items: center;
       margin: 1.5rem 1.5rem;
       opacity: 70%;
+      border-radius: 1rem;
     }
 
     .header-icons:hover {
       opacity: 100%;
+    }
+    .header-icons:active {
+      transition: 0.3s;
+      transform: scale(1.7);
+      background-color: red;
     }
 
     a {
@@ -310,6 +331,28 @@ nav {
   }
 }
 
+#bouton,
+#bouton-pause {
+  animation-name: sapeShake;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sapeShake {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(30deg) scale(1.3);
+  }
+  50% {
+    transform: rotate(0deg) scale(1);
+  }
+  75% {
+    transform: rotate(-30deg) scale(1.3);
+  }
+}
+
 .left {
   grid-column: 1;
 }
@@ -336,16 +379,14 @@ nav {
     left: 25px;
     z-index: 2;
     margin: -4.5rem 0;
-  
+
     img {
       width: 160px;
       height: 160px;
       border-radius: 100%;
       border: solid 4px white;
     }
-
   }
-  
 
   .bio-textes {
     padding: 4rem 1.5rem 2rem 1.5rem;
@@ -461,6 +502,7 @@ nav {
           justify-content: center;
           font-weight: bold;
           padding: 0.5rem;
+          margin-right: 0.7rem;
         }
 
         .bio-buttons-plus:hover {
@@ -469,6 +511,53 @@ nav {
           color: black;
           cursor: pointer;
           transition: 0.1s ease-in;
+        }
+
+        .bio-boutons-musique {
+          background-color: red;
+          border: solid 1px var(--clr-dark-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          color: var(--clr-fond);
+          width: 14rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          padding: 0.5rem;
+          margin-right: 0.7rem;
+          animation-iteration-count: infinite;
+        }
+
+        .bio-boutons-musique:hover {
+          background-color: var(--clr-grey-hover);
+          border: solid 1px black;
+          color: black;
+          cursor: pointer;
+          transform: rotate(180);
+          transition: 0.1s ease-in;
+        }
+
+        .bio-boutons-musique:active {
+          transition: 0.3s;
+          transform: scale(1.9);
+        }
+
+        .bio-boutons-stop {
+          background-color: white;
+          border: solid 1px var(--clr-dark-grey);
+          border-radius: 1.5rem;
+          text-decoration: none;
+          color: var(--clr-dark-grey);
+          width: 8rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          padding: 0.5rem;
+          margin-right: 0.7rem;
         }
       }
     }
@@ -492,7 +581,53 @@ nav {
   }
 }
 
-/* BLOC ACTIVITE */
+.formation {
+  padding: 2rem 2rem;
+  margin-top: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: solid 1px var(--clr-border);
+
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+
+  hr {
+    border: 0.5px solid var(--clr-border);
+  }
+
+  img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .formation-date {
+    color: var(--clr-light-grey);
+  }
+
+  .formation-42 {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6rem;
+
+    .formation-42-texte {
+      margin-left: 0.7rem;
+    }
+  }
+
+  .formation-ecole-de-conde {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.6rem;
+
+    .formation-ecole-de-conde-texte {
+      margin-left: 0.7rem;
+    }
+  }
+}
 
 .bloc-activité {
   margin-top: 1rem;
@@ -586,7 +721,7 @@ nav {
   background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
-  
+
   h2 {
     font-size: 1.35rem;
     font-weight: 700;
@@ -622,39 +757,24 @@ nav {
     align-items: center;
     line-height: 1.6rem;
 
-<<<<<<< HEAD
     .formation-ecole-de-conde-texte {
       margin-left: 0.7rem;
-=======
-      li:first-child {
-        font-weight: bold;
-
-        img {
-          width: 8rem;
-          padding-right: 2rem;
-        }
-      }
->>>>>>> 2bf9cf35d1d304846794e78c3657e499ca4f6be9
     }
   }
 }
-
-/* BLOC COMPETENCES */
 
 .competences {
   margin-top: 0.8rem;
   background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
-  padding: 1.3rem 1.5rem 1rem 1.5rem;
-
+  padding: 1.3rem 1.5rem 0 1.5rem;
 }
 
 .competences-description {
   font-size: 0.8rem;
   margin-top: 0.7rem;
   color: var(--clr-dark-grey);
-
 
   img {
     width: 2.2rem;
@@ -686,24 +806,6 @@ nav {
     /* z-index: 1;
       padding: 10 26rem;
       margin: -10 -26rem; */
-  }
-}
-
-/* BLOC CENTRES D'INTERET */
-
-.centres-dinteret {
-  display: flex;
-  flex-direction: column;
-
-  .ci-onglets {
-    display: flex;
-    flex-direction: row;
-
-    li {
-      display: flex;
-      flex-direction: row;
-      padding: 2rem 1rem 2rem 0;
-    }
   }
 }
 
@@ -748,19 +850,18 @@ nav {
         display: flex;
         flex-direction: column;
 
-      li:first-child {
-        font-weight: bold;
+        li:first-child {
+          font-weight: bold;
 
-        img {
-          width: 8rem;
-          padding-right: 2rem;
+          img {
+            width: 8rem;
+            padding-right: 2rem;
+          }
         }
       }
     }
   }
 }
-}
-
 
 /* BLOC FOOTER */
 
@@ -793,12 +894,6 @@ footer {
       }
     }
   }
-<<<<<<< HEAD
-}
-
-/* BLOC ASIDE */
-=======
-<<<<<<< HEAD
 }
 
 .competences {
@@ -854,8 +949,6 @@ footer {
     }
   }
 }
->>>>>>> 2bf9cf35d1d304846794e78c3657e499ca4f6be9
-
 .aside {
   grid-column: 2;
 
@@ -867,15 +960,8 @@ footer {
       margin: -2em;
     } */
 }
-<<<<<<< HEAD
-=======
 
 footer {
   /* position: absolute; */
   bottom: 1px;
 }
-
-=======
-}
->>>>>>> sapeur
->>>>>>> 2bf9cf35d1d304846794e78c3657e499ca4f6be9
