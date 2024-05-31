@@ -277,10 +277,16 @@ nav {
       align-items: center;
       margin: 1.5rem 1.5rem;
       opacity: 70%;
+      border-radius: 1rem;
     }
 
     .header-icons:hover {
       opacity: 100%;
+    }
+    .header-icons:active {
+      transition: 0.3s;
+      transform: scale(1.7);
+      background-color: red;
     }
 
     a {
@@ -531,6 +537,11 @@ nav {
           cursor: pointer;
           transform: rotate(180);
           transition: 0.1s ease-in;
+        }
+
+        .bio-boutons-musique:active {
+          transition: 0.3s;
+          transform: scale(1.9);
         }
 
         .bio-boutons-stop {
