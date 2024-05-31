@@ -370,6 +370,7 @@ nav {
       border-top-right-radius: 0.5rem;
       max-width: 100%;
       width: 100%;
+      object-fit: contain;
     }
   }
 
@@ -385,6 +386,7 @@ nav {
       height: 160px;
       border-radius: 100%;
       border: solid 4px white;
+      object-fit: contain;
     }
   }
 
@@ -612,6 +614,12 @@ nav {
     align-items: center;
     line-height: 1.6rem;
 
+    img {
+      width: 6rem;
+      object-fit: contain;
+      margin-right: 1rem;
+    }
+
     .formation-42-texte {
       margin-left: 0.7rem;
     }
@@ -622,6 +630,12 @@ nav {
     display: flex;
     align-items: center;
     line-height: 1.6rem;
+
+    img {
+      width: 6rem;
+      object-fit: contain;
+      margin-right: 1rem;
+    }
 
     .formation-ecole-de-conde-texte {
       margin-left: 0.7rem;
@@ -817,6 +831,8 @@ nav {
   border: solid 1px var(--clr-border);
 
   .ci-onglets {
+    margin: 1rem 0;
+    display: flex;
     li:first-child {
       font-weight: bold;
       color: rgb(17, 174, 17);
