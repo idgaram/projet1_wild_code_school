@@ -347,6 +347,7 @@ nav {
       height: 160px;
       border-radius: 100%;
       border: solid 4px white;
+      max-height: 220px;
     }
   }
 

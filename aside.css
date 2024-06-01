@@ -21,6 +21,7 @@
   .box-profil-img {
     display: inline;
     width: 60px;
+    margin-right: 1rem;
 
     .profil-autre-img {
       width: 50px;
@@ -36,6 +37,7 @@
     margin-top: 0.4rem;
     margin-left: 0.2rem;
     margin-bottom: 0.4rem;
+    line-height: 1.1rem;
 
     h2 {
       /* display: block; */
@@ -57,7 +59,8 @@
   }
 
   .profil-autre-button {
-    background-color: white;
+    background-color: brown;
+    color: aquamarine;
     border: solid 1px var(--clr-light-grey);
     border-radius: 1.5rem;
     text-decoration: none;
