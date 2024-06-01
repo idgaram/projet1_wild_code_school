@@ -330,8 +330,11 @@ nav {
     img {
       border-top-left-radius: 0.5rem;
       border-top-right-radius: 0.5rem;
-      width: 1584px;
-      heigth: 396px;
+      width: 603px;
+      height: 220px;
+      max-width: 100%;
+      max-height: 100%;
+      
     }
   }
 
@@ -502,6 +505,10 @@ nav {
       li {
         display: flex;
         align-items: center;
+
+        img {
+          border-radius: 100%;
+        }
       }
 
       a {
