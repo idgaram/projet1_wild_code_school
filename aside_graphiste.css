@@ -59,8 +59,8 @@
   }
 
   .profil-autre-button {
-    background-color: white;
-
+    background-color: brown;
+    color: aquamarine;
     border: solid 1px var(--clr-light-grey);
     border-radius: 1.5rem;
     text-decoration: none;
