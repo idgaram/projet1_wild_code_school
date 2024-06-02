@@ -22,6 +22,11 @@
             <img src="assets\search-svgrepo-com.svg" alt="search logo" />
             <input type="search" placeholder="Recherche" />
           </div>
+          <img
+            class="phone-only"
+            src="assets\search-svgrepo-com.svg"
+            alt="search logo phone"
+          />
         </div>
         <div class="header-right">
           <div class="header-icons">
@@ -64,8 +69,8 @@
             />
             <p>Messagerie</p>
           </div>
-          <div class="vertical-line"></div>
-          <a href="">S'inscrire</a>
+          <div class="vertical-line desktop-only"></div>
+          <a class="log">S'inscrire</a>
           <a class="identify" href="">S'identifier</a>
         </div>
       </nav>
@@ -382,7 +387,7 @@
 
             <div class="box-profil-autre-text">
               <h2 class="autre-profil">Abdou keerbeb</h2>
-              <h3>Developpeur / formater @ wildcodeschool</h3>
+              <h3>Developpeur / formateur @ wildcodeschool</h3>
               <p>la .class-internationale</p>
               <br />
               <button class="profil-autre-button">Voir le profil</button>
@@ -423,16 +428,17 @@
           <img
             src="./assets/footer_help.svg"
             alt="symbole point d'interrogation"
-          />
-          Des questions ?>
+          /><span class="desktop-only"> Des questions ? </span>
         </li>
         <li>
           <img src="./assets/footer_nut.svg" alt="symbole écrou" />
-          Gérez votre compte et votre confidentialité
+          <span class="desktop-only"
+            >Gérez votre compte et votre confidentialité</span
+          >
         </li>
         <li>
           <img src="./assets/footer_shield.svg" alt="symbole bouclier" />
-          Transparence des recommandations
+          <span class="desktop-only">Transparence des recommandations</span>
         </li>
       </ul>
     </footer>
