@@ -14,7 +14,7 @@
   display: flex;
   margin-bottom: 1rem;
   padding: 1.2;
-
+  background-color: rgb(255, 255, 255);
   align-items: stretch;
   margin-top: 0.5rem;
 
@@ -30,7 +30,7 @@
   }
 
   .box-profil-autre-text {
-    display: inline;
+    display: flex;
     flex-direction: column;
     flex-grow: 1;
     width: max-content;
@@ -59,8 +59,8 @@
   }
 
   .profil-autre-button {
-    background-color: white;
-
+    background-color: brown;
+    color: aquamarine;
     border: solid 1px var(--clr-light-grey);
     border-radius: 1.5rem;
     text-decoration: none;
