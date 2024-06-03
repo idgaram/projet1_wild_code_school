@@ -14,7 +14,7 @@
   display: flex;
   margin-bottom: 1rem;
   padding: 1.2;
-  background-color: rgb(255, 255, 255);
+
   align-items: stretch;
   margin-top: 0.5rem;
 
@@ -29,7 +29,7 @@
   }
 
   .box-profil-autre-text {
-    display: flex;
+    display: inline;
     flex-direction: column;
     flex-grow: 1;
     width: max-content;
