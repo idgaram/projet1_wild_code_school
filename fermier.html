@@ -27,42 +27,50 @@
           <div class="header-icons">
             <img
               class="logo"
-              src="assets\home-4-svgrepo-com.svg"
-              alt="logo accueil"
+              src="assets/play-back-outline.svg"
+              alt="symbole retour en arrière"
             />
-            <p>Accueil</p>
+            <p></p>
+          </div>
+          <audio id="myAudioPoussin">
+            <source src="poussin_piou.mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <button
+            class="header-icons bouton-pause"
+            id="bouton-pause"
+            type="button"
+          >
+            <img
+              class="logo"
+              src="assets/pause-outline.svg"
+              alt="symbole pause"
+            />
+            <p></p>
+          </button>
+          <button class="header-icons bouton" id="bouton" type="button">
+            <img
+              class="logo"
+              src="assets/play-outline.svg"
+              alt="symbole bouton play"
+            />
+            <p></p>
+          </button>
+          <div class="header-icons">
+            <img
+              class="logo"
+              src="assets/play-forward-outline.svg"
+              alt="symbole avance rapide"
+            />
+            <p></p>
           </div>
           <div class="header-icons">
             <img
               class="logo"
-              src="assets\person-team-svgrepo-com.svg"
-              alt="logo réseau"
+              src="assets/stop-outline.svg"
+              alt="symbole arret"
             />
-            <p>Réseau</p>
-          </div>
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\job-search-svgrepo-com.svg"
-              alt="logo Offres d'emploi"
-            />
-            <p>Offres d'emploi</p>
-          </div>
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\school-svgrepo-com.svg"
-              alt="logo Linkedin Learning"
-            />
-            <p>LinkedIn Learning</p>
-          </div>
-          <div class="header-icons">
-            <img
-              class="logo"
-              src="assets\message-circle-lines-svgrepo-com.svg"
-              alt="logo messagerie"
-            />
-            <p>Messagerie</p>
+            <p></p>
           </div>
           <div class="vertical-line"></div>
           <a href="">S'inscrire</a>
@@ -70,7 +78,6 @@
         </div>
       </nav>
     </header>
-
     <!-- main body -->
 
     <main>
@@ -263,37 +270,50 @@
 
         <section class="competences">
           <h2>Compétences</h2>
-          <h3>JavaScript</h3>
+          <br>
+          <h3>Élevages</h3>
           <div class="competences-description">
             <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par Christophe Baume et 2 autres personnes très
-              compétentes dans ce domaine
+              <a href="./assets/heihei.jpg" target="_blank">
+              <img 
+                src="./assets/heihei.jpg" 
+                alt="image de Heihei"
+                title="Cliquez pour agrandir" />
+              </a>
+              <p>Compétences recommandées par Heihei (le coq de Vaïana) et 2 autres personnes très
+              compétentes dans ce domaine</p>
             </article>
             <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par 6 collègues chez Wild Code School
-            </article>
-            <article>
-              <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />18
-              recommandations de compétences
+              <a href="./assets/chicken_little.jpg" target="_blank">
+                <img 
+                  src="./assets/chicken_little.jpg" 
+                  alt="image de chicken little"
+                  title="Cliquez pour agrandir" />
+                </a>
+              <p>Compétences recommandées par Chicken Little et 19 poules de chez Cot Cot School</p>
             </article>
           </div>
           <br />
-          <h3>Node.js</h3>
+          <h3>Conduite de tracteur</h3>
           <div class="competences-description">
             <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par Alexis Ducerf et 2 autres personnes très
-              compétentes dans ce domaine
+              <a href="./assets/ff.jpg" target="_blank">
+                <img 
+                  src="./assets/ff.jpg" 
+                  alt="image de Dominic Toretto"
+                  title="Cliquez pour agrandir" />
+                </a>
+              <p>Compétences recommandées par Dominic Toretto et d'autres membres de sa "famille"</p>
             </article>
             <article>
-              <img src="assets\florian.jpg" alt="logo florian" />Compétences
-              recommandées par 4 collègues chez Wild Code School
-            </article>
-            <article>
-              <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />15
-              recommandations de compétences
+              <a href="./assets/farming_simulator.jpg" target="_blank">
+                <img 
+                  src="./assets/farming_simulator.jpg" 
+                  alt="image de Farming Simulator"
+                  title="Cliquez pour agrandir" />
+                </a>
+              <p>A atteint le niveau max. à Farming Simulator<br>
+                Compétences recommandées par d'autres joueurs de Farming Simulator</p>
             </article>
           </div>
           <div class="competences-bouton">
@@ -437,5 +457,5 @@
 
     <!-- Fin du footer -->
   </body>
-  <script src="script.js"></script>
+  <script src="script_fermier.js"></script>
 </html>
