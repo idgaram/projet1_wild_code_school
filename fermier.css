@@ -161,8 +161,13 @@ table {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #f4f2ee;
+  background-image: url("./assets/background_fermier.jpeg");
+  background-size: cover;
   min-height: 100vh;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 main {
@@ -686,10 +691,6 @@ nav {
   display: flex;
   flex-direction: column;
 
-  .ci-titre {
-    font-size: 2rem;
-  }
-
   .ci-onglets {
     display: flex;
     flex-direction: row;
@@ -715,6 +716,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     line-height: 1.5rem;
+    padding-bottom: 2rem;
   }
 
   .ci-colonne {
@@ -722,7 +724,7 @@ nav {
     flex-direction: row;
 
     img {
-      width: 8rem;
+      width: 5rem;
       padding-right: 2rem;
     }
 
@@ -757,10 +759,10 @@ footer {
   padding: 0 23rem;
   display: flex;
   bottom: 1px;
-  line-height: 2rem;
+  line-height: 1rem;
   margin-bottom: 2rem;
   font-size: 0.8rem;
-  color: var(--clr-dark-grey);
+  color: black;
 
   ul {
     display: flex;
