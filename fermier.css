@@ -624,6 +624,22 @@ nav {
   border-radius: 0.5rem;
   background: var(--clr-fond);
 
+  .button-activite {
+    margin-left: 1rem;
+    background-color: green;
+    border: solid 1px green;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+
   .activité {
     margin: 1.5rem;
     text-align: left;
@@ -638,6 +654,39 @@ nav {
   .Abdou {
     margin: 1.5rem;
     text-align: left;
+
+    hr {
+      border: 0.5px solid var(--clr-border);
+    }
+
+    .Abdou-activite{
+
+      .Abdou-activite-bloc {
+
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        line-height: 1.6rem;
+
+        .activite-image-coq {
+          object-fit: cover;
+          height: 180px;
+          width: 250px ;
+
+            
+        }
+
+        p {
+          margin-left: 1rem;
+        }
+
+        .activite-image-cochon {
+          object-fit: cover;
+          height: 183px;
+          width: 250px ;
+        }
+      }
+    }
   }
 
   .texte2 {
