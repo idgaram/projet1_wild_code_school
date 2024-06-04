@@ -195,6 +195,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 2;
   p {
     /* display: flex;
     justify-content: center;
@@ -338,6 +339,7 @@ nav {
         }
 
         .bio-buttons-message {
+          z-index: 1;
           margin-right: 0.7rem;
           background-color: white;
           border: solid 1px var(--clr-blue);
