@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="aside.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fermier.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abdou Kerbeb |linkedin</title>
@@ -66,39 +66,10 @@
           </div>
           <div class="vertical-line"></div>
           <a href="">S'inscrire</a>
-          <button class="identify" id="identify" href="">S'identifier</button>
+          <a class="identify" href="">S'identifier</a>
         </div>
       </nav>
     </header>
-
-    <!-- connection -->
-
-    <div class="connection invisible">
-      <div class="connection-body">
-        <button class="connection-fermer">fermer</button>
-        <form action="">
-          entrer le mot de passe :
-          <input
-            type="text"
-            placeholder="Password"
-            class="password-field"
-          /><button class="login-button">se connecter</button>
-        </form>
-      </div>
-    </div>
-
-    <!-- florian 12 -->
-    <div class="florian-12 invisible">
-      <p>
-        En arrivant sur cette page tu as malencontreusement pénétré le cerveau
-        d’Abdou. Celui-ci est peuplé de multiples personnalités. Pour revenir
-        IRL, tu vas devoir toutes les rencontrer Utilise le bouton “se
-        connecter” pour découvrir une nouvelle personnalité <br /><br />signé
-        inspecteur Florian Douze <br />ps : si tu cherches des indices execute
-        moi
-      </p>
-      <button id="fermer-florian">connecte toi</button>
-    </div>
 
     <!-- main body -->
 
@@ -132,7 +103,7 @@
                 <button class="bio-buttons-connect">
                   <img src="assets/se_connecter.svg" alt="" />Se connecter
                 </button>
-                <button class="bio-buttons-message" id="bouton">Message</button>
+                <button class="bio-buttons-message">Message</button>
                 <button class="bio-buttons-plus">Plus</button>
               </div>
             </div>
@@ -156,11 +127,50 @@
             <h2>Activité</h2>
             <p class="texte1">123 456 789 abonnés</p>
           </div>
+          <div>
+            <button class="button-activite">POST</button>
+          </div>
           <div class="Abdou">
-            <h4>Abdou n'a encore rien publié</h4>
-            <p class="texte2">
-              Les posts récents partagés par Abdou seront affichés ici.
-            </p>
+            <div class="Abdou-activite">
+              <h4>Abdou KERKEB a publié ceci • 12h</h4>
+              <div class="Abdou-activite-bloc">
+                <img
+                  src="assets/combat-de-coq.jpeg"
+                  alt="fighting-cock"
+                  class="activite-image-coq"
+                />
+                <p>
+                  Venez vivre une expérience unique et palpitante lors de notre
+                  Grand Concours de Combat de Coqs ! Rejoignez-nous pour une
+                  journée pleine d'excitation, de compétitions intenses et de
+                  divertissements pour toute la famille.
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="Abdou-activite">
+              <h4>Abdou KERKEB a publié ceci • 1 jour</h4>
+              <div class="Abdou-activite-bloc">
+                <img
+                  src="assets/courses-cochon.jpg"
+                  alt="pig-racing"
+                  class="activite-image-cochon"
+                />
+                <p>
+                  Vous êtes invités à un événement unique en son genre : notre
+                  Grand Concours de Course de Cochons ! Préparez-vous pour une
+                  journée pleine de rires, de compétitions amusantes et de
+                  divertissements pour toute la famille.
+                </p>
+              </div>
+            </div>
+            <div class="Abdou-activite">
+              <h4>Abdou KERKEB a publié ceci • 1 semaine</h4>
+              <div class="Abdou-activite-bloc">
+                <img src="" alt="" class="" />
+                <p></p>
+              </div>
+            </div>
           </div>
           <div class="button">
             <a href="">Toute l'activité →</a>
@@ -265,21 +275,20 @@
         <section class="formation">
           <h2>Formation</h2>
           <div class="formation-42">
-            <img src="assets/42_logo.jpg" alt="" />
+            <img src="assets/ecole-elevage.jpeg" alt="" />
             <div class="formation-42-texte">
               <ul>
-                <li><a href="">42</a></li>
-                <li>software engineer</li>
+                <li>École Supérieure d'Agriculture</li>
                 <li class="formation-date">2014 - 2017</li>
               </ul>
             </div>
           </div>
           <hr />
           <div class="formation-ecole-de-conde">
-            <img src="assets/ecoledeconde_logo.jpeg" alt="" />
+            <img src="assets/formation-fermier.png" alt="" />
             <div class="formation-ecole-de-conde-texte">
               <ul>
-                <li><a>École de Condé</a></li>
+                <li><a>EARTH University</a></li>
                 <li class="formation-date">2014 - 2017</li>
               </ul>
             </div>
@@ -345,9 +354,7 @@
               </li>
               <li>
                 <ul class="ci-colonne-info">
-                  <li>
-                    <bold>42</bold>
-                  </li>
+                  <li><bold>42</bold></li>
                   <li>76 827 abonnés</li>
                   <li>
                     <button class="bouton suivi" type="button">+ Suivre</button>
@@ -365,9 +372,7 @@
               </li>
               <li>
                 <ul class="ci-colonne-info">
-                  <li>
-                    <bold>Netinvestissement</bold>
-                  </li>
+                  <li><bold>Netinvestissement</bold></li>
                   <li>5 819 abonnés</li>
                   <li>
                     <button class="bouton suivi" type="button">+ Suivre</button>
@@ -388,7 +393,6 @@
       <div class="aside">
         <div class="box-profils">
           <h2>Autres profils similaires</h2>
-          <br />
           <div class="profil-autre">
             <!-- <article class="profil-autre"> -->
 
@@ -401,13 +405,16 @@
             </div>
 
             <div class="box-profil-autre-text">
-              <h2 class="autre-profil">Abdou keerbeb</h2>
-              <h3>Developpeur / formater @ wildcodeschool</h3>
-              <p>la .class-internationale</p>
-              <br />
+              <h2 class="autre-profil">Prénom nom</h2>
+              <h3>fonction</h3>
+              <p>
+                eiugvfvhboihboiibbipnpl<br />
+                khhmhhlkhlhpehpm
+              </p>
               <button class="profil-autre-button">Voir le profil</button>
             </div>
           </div>
+          <hr />
         </div>
       </div>
       <!-- </div> -->
@@ -458,6 +465,6 @@
     </footer>
 
     <!-- Fin du footer -->
-    <script src="script.js"></script>
   </body>
+  <script src="script.js"></script>
 </html>
