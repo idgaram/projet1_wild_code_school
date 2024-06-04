@@ -538,6 +538,7 @@ nav {
   background: var(--clr-fond);
 
   .button-activite {
+    margin-left: 1rem;
     background-color: green;
     border: solid 1px green;
     border-radius: 1.5rem;
