@@ -24,18 +24,31 @@ connectionFermer.addEventListener("click", () => {
   connectionPopup.classList.toggle("visible");
 });
 
+const reponse = document.querySelector(".reponse");
+const monfils = document.querySelector(".monfils");
+const reponseFermer = document.querySelector(".reponse-fermer");
+
+monfils.addEventListener("click", () => {
+  reponse.classList.toggle("visible");
+});
+
+reponseFermer.addEventListener("click", () => {
+  reponse.classList.toggle("visible");
+});
+
+reponse - fermer;
 // fonction login à répéter
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#login-index");
   const inputField = document.querySelector(".password-field");
-  const answer = "abdou123456789";
+  const answer = "Sapé comme jamais";
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (inputField.value === answer) {
-      window.location.href = "sapeur.html";
+      window.location.href = "graphiste.html";
     } else {
       alert("le mot de passe est erroné");
     }

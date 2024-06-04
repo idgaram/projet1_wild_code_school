@@ -1025,7 +1025,7 @@ footer {
   bottom: 1px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1280px) {
   * {
     max-width: 100vw;
   }
