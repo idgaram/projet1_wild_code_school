@@ -28,12 +28,12 @@
             <img
               class="logo"
               src="assets/play-back-outline.svg"
-              alt="logo accueil"
+              alt="symbole retour en arrière"
             />
             <p></p>
           </div>
-          <audio id="myAudio">
-            <source src="coffin_dance.mp3" />
+          <audio id="myAudioPoussin">
+            <source src="poussin_piou.mp3" />
             Your browser does not support the audio element.
           </audio>
           <button
@@ -44,7 +44,7 @@
             <img
               class="logo"
               src="assets/pause-outline.svg"
-              alt="logo réseau"
+              alt="symbole pause"
             />
             <p></p>
           </button>
@@ -52,7 +52,7 @@
             <img
               class="logo"
               src="assets/play-outline.svg"
-              alt="logo Offres d'emploi"
+              alt="symbole bouton play"
             />
             <p></p>
           </button>
@@ -60,7 +60,7 @@
             <img
               class="logo"
               src="assets/play-forward-outline.svg"
-              alt="logo Linkedin Learning"
+              alt="symbole avance rapide"
             />
             <p></p>
           </div>
@@ -68,7 +68,7 @@
             <img
               class="logo"
               src="assets/stop-outline.svg"
-              alt="logo messagerie"
+              alt="symbole arret"
             />
             <p></p>
           </div>
@@ -78,7 +78,6 @@
         </div>
       </nav>
     </header>
-
     <!-- main body -->
 
     <main>
@@ -89,22 +88,19 @@
 
         <section class="bio">
           <div class="bio-bannière">
-            <img
-              src="assets/mes-beaux-sapeurs-congolais-congo-brazzaville-2009.jpeg"
-              alt=""
-            />
+            <img src="./assets/banniere_fermier.png" alt="Image d'un champ de blé" />
           </div>
           <div class="bio-photo">
-            <img src="assets/portrait_sapeur.jpg" alt="" />
+            <img src="./assets/photo_profil_fermier.jpeg" alt="Photo d'un fermier" />
           </div>
           <div class="bio-textes">
             <div class="bio-left">
               <a id="bio-abdou" href="">Abdou Kerbeb</a>
               <p class="bio-description">
-                Formateur React / Node.js @WildCodeSchool / Développeur
+                Fermier / chickenwings@cotcotschool / Éleveur de poulets
               </p>
               <p class="bio-localisation">
-                Paris, Île-de-France, France
+                Gallinopolis, France
                 <a href="">&nbsp;&nbsp;Coordonnées</a>
               </p>
 
@@ -112,7 +108,7 @@
               <br />
               <div class="bio-buttons">
                 <button class="bio-buttons-connect">
-                  <img src="assets/se_connecter.svg" alt="" />Se connecter
+                  <img src="assets/se_connecter.svg" alt="Bouton se connecter" />Se connecter
                 </button>
                 <button class="bio-buttons-message">Message</button>
                 <button class="bio-buttons-plus">Plus</button>
@@ -120,13 +116,15 @@
             </div>
             <div class="bio-right">
               <ul>
+                <br>
                 <li>
-                  <img src="assets/wild_code_school_logo.jpg" alt="" />
-                  <a href="">Wild Code School</a>
+                  <img src="assets/KFC_logo.png" alt="Logo KFC" />
+                  <a href="">Koopérative des Fermiers Chicken</a>
                 </li>
+                <br>
                 <li>
-                  <img src="assets/42_logo.jpg" alt="" />
-                  <a href="">42</a>
+                  <img src="assets/amd_logo.png" alt="Logo AMP" />
+                  <a href="">L'Académie des Maîtres Poulaillers</a>
                 </li>
               </ul>
             </div>
@@ -139,10 +137,36 @@
             <p class="texte1">123 456 789 abonnés</p>
           </div>
           <div class="Abdou">
-            <h4>Abdou n'a encore rien publié</h4>
-            <p class="texte2">
-              Les posts récents partagés par Abdou seront affichés ici.
-            </p>
+            <div class="Abdou-activite">
+              <h4>Abdou KERKEB a publié ceci • 12h</h4>
+              <div class="Abdou-activite-bloc">
+                <img src="assets/combat-rooster.png" alt="fighting-cock" class="activite-image-coq">
+                <p>
+                  Venez vivre une expérience unique et palpitante lors de notre Grand Concours de Combat de Coqs ! 
+                  Rejoignez-nous pour une journée pleine d'excitation, 
+                  de compétitions intenses et de divertissements pour toute la famille.
+                </p> 
+              </div>
+            </div>
+            <hr />
+            <div class="Abdou-activite">
+              <h4>Abdou KERKEB a publié ceci • 1 jour</h4>
+              <div class="Abdou-activite-bloc">
+                <img src="assets/courses-cochon.jpg" alt="pig-racing" class="activite-image-cochon">
+                <p>Vous êtes invités à un événement unique en son genre :
+                   notre Grand Concours de Course de Cochons !
+                  Préparez-vous pour une journée pleine de rires,
+                  de compétitions amusantes et de divertissements pour toute la famille.
+                </p>
+                </div>
+            </div>
+            <div class="Abdou-activite">
+              <h4>Abdou KERKEB a publié ceci • 1 semaine</h4>
+              <div class="Abdou-activite-bloc">
+                <img src="" alt="" class="">
+                <p></p>
+              </div>
+          </div>
           </div>
           <div class="button">
             <a href="">Toute l'activité →</a>
@@ -251,59 +275,73 @@
         <section class="formation">
           <h2>Formation</h2>
           <div class="formation-42">
-            <img src="assets/afroDanse.png" alt="" />
+            <img src="assets/ecole-elevage.jpeg" alt="" />
             <div class="formation-42-texte">
               <ul>
-                <li>Afro Danse</li>
-                <li>Danse africaine traditionnelle</li>
+                <li>École Supérieure d'Agriculture</li>
                 <li class="formation-date">2014 - 2017</li>
               </ul>
             </div>
           </div>
           <hr />
           <div class="formation-ecole-de-conde">
-            <img src="assets/Edukiya_Logos.webp" alt="" />
+            <img src="assets/formation-fermier.png" alt="" />
             <div class="formation-ecole-de-conde-texte">
               <ul>
-                <li>La mode sape</li>
-                <li>Institut de Coupe de Couture et de Mode</li>
-                <li class="formation-date">2017 - 2020</li>
+                <li><a>EARTH University</a></li>
+                <li class="formation-date">2014 - 2017</li>
               </ul>
             </div>
           </div>
         </section>
-
         <!-- fin formation -->
 
         <section class="competences">
           <h2>Compétences</h2>
-          <h3>Stylisme</h3>
+          <br>
+          <h3>Élevages</h3>
           <div class="competences-description">
             <article>
-              <img
-                src="\assets\jocelyn-armel-10.15-2015-7.jpg"
-                alt="logo florian"
-              />Compétences recommandées par Jocelyn Armel, dit le Bachelor et
-              287 autres personnes très compétentes dans ce domaine
+              <a href="./assets/heihei.jpg" target="_blank">
+              <img 
+                src="./assets/heihei.jpg" 
+                alt="image de Heihei"
+                title="Cliquez pour agrandir" />
+              </a>
+              <p>Compétences recommandées par Heihei (le coq de Vaïana) et 2 autres personnes très
+              compétentes dans ce domaine</p>
             </article>
-            <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />15
-            recommandations de compétences
+            <article>
+              <a href="./assets/chicken_little.jpg" target="_blank">
+                <img 
+                  src="./assets/chicken_little.jpg" 
+                  alt="image de chicken little"
+                  title="Cliquez pour agrandir" />
+                </a>
+              <p>Compétences recommandées par Chicken Little et 19 poules de chez Cot Cot School</p>
+            </article>
           </div>
           <br />
-          <h3>Coupé-décalé</h3>
+          <h3>Conduite de tracteur</h3>
           <div class="competences-description">
             <article>
-              <img src="assets\KL.jpg" alt="logo florian" />Compétences
-              recommandées par Mwamba Lagerfel et 2 autres personnes très
-              compétentes dans ce domaine
+              <a href="./assets/ff.jpg" target="_blank">
+                <img 
+                  src="./assets/ff.jpg" 
+                  alt="image de Dominic Toretto"
+                  title="Cliquez pour agrandir" />
+                </a>
+              <p>Compétences recommandées par Dominic Toretto et d'autres membres de sa "famille"</p>
             </article>
             <article>
-              <img src="assets\Mama.jpg" alt="logo florian" />Compétences
-              recommandées par 4 collègues chez Wild Code School
-            </article>
-            <article>
-              <img src="assets\person-team-svgrepo-com.svg" alt="logo team" />15
-              recommandations de compétences
+              <a href="./assets/farming_simulator.jpg" target="_blank">
+                <img 
+                  src="./assets/farming_simulator.jpg" 
+                  alt="image de Farming Simulator"
+                  title="Cliquez pour agrandir" />
+                </a>
+              <p>A atteint le niveau max. à Farming Simulator<br>
+                Compétences recommandées par d'autres joueurs de Farming Simulator</p>
             </article>
           </div>
           <div class="competences-bouton">
@@ -316,27 +354,27 @@
         <section class="centres-dinteret">
           <h2>Centres d'intérêt</h2>
           <ul class="ci-onglets">
-            <li>Sapé&nbsp;</li>
-            <li>Comme&nbsp;</li>
-            <li>Jamais&nbsp;</li>
+            <li>Poulaillers</li>
+            <li>Élevage</li>
+            <li>Écoles</li>
           </ul>
 
           <div class="ci-ent-suivies">
             <ul class="ci-colonne">
               <li>
-                <a href="assets/roi_de_la_sape_tr.JPG" target="_blank">
-                  <img
-                    src="assets/roi_de_la_sape.jpg"
-                    alt="Sapeur de Kinshasa"
-                    title="Cliquez pour agrandir"
+                <a href="./assets/creation_elevage.jpg" target="_blank">
+                <img
+                  src="assets/creation_elevage.jpg" 
+                  alt="image d'un élevage en lego"
+                  title="Cliquez pour agrandir"
                 /></a>
               </li>
               <li>
                 <ul class="ci-colonne-info">
-                  <li>Le roi de la sape</li>
-                  <li>76 827 costards</li>
+                  <li><bold>Les poulets briqués</bold></li>
+                  <li>76 827 briques</li>
                   <li>
-                    <button class="bouton-suivi">kiffe grave</button>
+                    <button class="bouton suivi" type="button">Construit</button>
                   </li>
                 </ul>
               </li>
@@ -344,19 +382,19 @@
 
             <ul class="ci-colonne">
               <li>
-                <a href="./assets/sapeur_ecossais_tr.jpg" target="_blank">
+                <a href="./assets/fou_du_poulet.jpeg" target="_blank">
                   <img
-                    src="./assets/sapeur_ecossais.jpg"
-                    alt="image d'un sapeur africain"
+                    src="./assets/fou_du_poulet.jpeg"
+                    alt="image d'un poulet au volant"
                     title="Cliquez pour agrandir"
                 /></a>
               </li>
               <li>
                 <ul class="ci-colonne-info">
-                  <li>La sapologie Africaine</li>
-                  <li>5 819 rollex</li>
+                  <li><bold>Les fous du poulet</bold></li>
+                  <li>5 819 accidents de voiture</li>
                   <li>
-                    <button class="bouton-suivi">kiffe grave</button>
+                    <button class="bouton suivi" type="button">Conduit</button>
                   </li>
                 </ul>
               </li>
@@ -370,6 +408,7 @@
       </div>
 
       <!-- colonne de droite -->
+
 
       <div class="aside">
         <div class="box-profils">
@@ -472,16 +511,19 @@
           <img
             src="./assets/footer_help.svg"
             alt="symbole point d'interrogation"
-          />
-          Des questions ?>
+          /> Des questions ?
         </li>
         <li>
-          <img src="./assets/footer_nut.svg" alt="symbole écrou" />
-          Gérez votre compte et votre confidentialité
+          <img 
+            src="./assets/footer_nut.svg"
+            alt="symbole écrou"
+          /> Gérez votre compte et votre confidentialité
         </li>
         <li>
-          <img src="./assets/footer_shield.svg" alt="symbole bouclier" />
-          Transparence des recommandations
+          <img 
+            src="./assets/footer_shield.svg"
+            alt="symbole bouclier"
+          /> Transparence des recommandations
         </li>
       </ul>
     </footer>

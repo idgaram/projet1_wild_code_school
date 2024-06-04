@@ -161,8 +161,13 @@ table {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #f4f2ee;
+  background-image: url("./assets/background_fermier.jpeg");
+  background-size: cover;
   min-height: 100vh;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 main {
@@ -188,6 +193,12 @@ nav {
 
   input {
     border: 0;
+  }
+
+  button {
+    border: none;
+    background-color: white;
+    width: 2rem;
   }
 
   .header-left {
@@ -256,6 +267,8 @@ nav {
       align-items: center;
       margin: 1.5rem 1.5rem;
       opacity: 70%;
+      border-radius: 1rem;
+
     }
 
     .header-icons:hover {
@@ -304,6 +317,14 @@ nav {
   }
 }
 
+#bouton,
+#bouton-pause {
+  animation-name: sapeShake;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
 .left {
   grid-column: 1;
 }
@@ -330,8 +351,11 @@ nav {
     img {
       border-top-left-radius: 0.5rem;
       border-top-right-radius: 0.5rem;
+      width: 603px;
+      height: 220px;
       max-width: 100%;
-      width: 100%;
+      max-height: 100%;
+      
     }
   }
 
@@ -502,6 +526,10 @@ nav {
       li {
         display: flex;
         align-items: center;
+
+        img {
+          border-radius: 100%;
+        }
       }
 
       a {
@@ -596,6 +624,22 @@ nav {
   border-radius: 0.5rem;
   background: var(--clr-fond);
 
+  .button-activite {
+    margin-left: 1rem;
+    background-color: green;
+    border: solid 1px green;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+
   .activité {
     margin: 1.5rem;
     text-align: left;
@@ -610,6 +654,39 @@ nav {
   .Abdou {
     margin: 1.5rem;
     text-align: left;
+
+    hr {
+      border: 0.5px solid var(--clr-border);
+    }
+
+    .Abdou-activite{
+
+      .Abdou-activite-bloc {
+
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        line-height: 1.6rem;
+
+        .activite-image-coq {
+          object-fit: cover;
+          height: 180px;
+          width: 250px ;
+
+            
+        }
+
+        p {
+          margin-left: 1rem;
+        }
+
+        .activite-image-cochon {
+          object-fit: cover;
+          height: 183px;
+          width: 250px ;
+        }
+      }
+    }
   }
 
   .texte2 {
@@ -679,10 +756,6 @@ nav {
   display: flex;
   flex-direction: column;
 
-  .ci-titre {
-    font-size: 2rem;
-  }
-
   .ci-onglets {
     display: flex;
     flex-direction: row;
@@ -708,6 +781,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     line-height: 1.5rem;
+    padding-bottom: 2rem;
   }
 
   .ci-colonne {
@@ -715,7 +789,7 @@ nav {
     flex-direction: row;
 
     img {
-      width: 8rem;
+      width: 5rem;
       padding-right: 2rem;
     }
 
@@ -750,10 +824,10 @@ footer {
   padding: 0 23rem;
   display: flex;
   bottom: 1px;
-  line-height: 2rem;
+  line-height: 1rem;
   margin-bottom: 2rem;
   font-size: 0.8rem;
-  color: var(--clr-dark-grey);
+  color: black;
 
   ul {
     display: flex;
@@ -785,27 +859,19 @@ footer {
 /* BLOC COMPETENCES */
 
 .competences {
-  color: var(--clr-dark-grey);
+  /* color: var(--clr-dark-grey); */
   margin-top: 0.8rem;
   background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
   padding: 1.3rem 1.5rem 0 1.5rem;
 
-  h2 {
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    margin-bottom: 0.7rem;
-  }
-
   .competences-description {
     font-size: 0.8rem;
     margin-top: 0.7rem;
 
     img {
-      width: 25px;
-      height: 25px;
+      width: 3rem;
       border-radius: 1rem;
       margin: 0.5rem 0.6rem 0.5rem 0;
     }
