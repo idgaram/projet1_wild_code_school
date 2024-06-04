@@ -74,7 +74,7 @@
           </div>
           <div class="vertical-line"></div>
           <a href="">S'inscrire</a>
-          <a class="identify" href="">S'identifier</a>
+          <button class="identify" id="identify" href="">S'identifier</button>
         </div>
       </nav>
     </header>
@@ -82,6 +82,21 @@
     <!-- main body -->
 
     <main>
+      <!-- connection -->
+      <div class="connection invisible">
+        <div class="connection-body">
+          <button class="connection-fermer">fermer</button>
+          <form id="login-index">
+            entrer le mot de passe :
+            <input
+              type="text"
+              placeholder="Password"
+              class="password-field"
+            /><button class="login-button">se connecter</button>
+          </form>
+        </div>
+      </div>
+
       <!-- colonne de gauche -->
 
       <div class="left">
@@ -379,7 +394,7 @@
           <h2>Autres profils similaires</h2>
           <div class="profil-autre">
             <div class="box-profil-img">
-              <img class="profil-autre-img" src="/assets/stervos.jpg" alt="" />
+              <img class="profil-autre-img" src="assets/stervos.jpg" alt="" />
             </div>
             <div class="box-profil-autre-text">
               <h2 class="autre-profil">Stervos Niarcos</h2>
@@ -397,7 +412,7 @@
             <div class="box-profil-img">
               <img
                 class="profil-autre-img"
-                src="/assets/gentleman_bizaut.jpg"
+                src="assets/gentleman_bizaut.jpg"
                 alt=""
               />
             </div>
@@ -414,7 +429,7 @@
             <div class="box-profil-img">
               <img
                 class="profil-autre-img"
-                src="/assets/Jocelyn_armel.jpg"
+                src="assets/Jocelyn_armel.jpg"
                 alt=""
               />
             </div>
