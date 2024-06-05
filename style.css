@@ -44,6 +44,10 @@ body {
   min-height: 100vh;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 main {
   display: grid;
   grid-template-columns: 77.5% 22.5%;
@@ -118,7 +122,6 @@ nav {
     flex-direction: row;
     padding: 0 2rem;
     margin-left: 1rem;
-
     align-items: center;
 
     p {
@@ -158,11 +161,6 @@ nav {
       border-radius: 1.5rem;
       text-decoration: none;
       color: var(--clr-dark-grey);
-      /* width: 8rem;
-      height: 3rem; */
-      /* display: flex;
-      align-items: center;
-      justify-content: center; */
     }
 
     .identify {
@@ -202,10 +200,8 @@ nav {
   align-items: center;
   flex-direction: column;
   z-index: 2;
+
   p {
-    /* display: flex;
-    justify-content: center;
-    align-self: center; */
     text-align: center;
     font-size: 2rem;
     font-family: "VT323", system-ui;
@@ -226,7 +222,6 @@ nav {
     background-color: black;
     color: green;
   }
-  /* transform: rotate(8deg); */
 }
 
 .invisible {
@@ -631,8 +626,12 @@ nav {
   display: flex;
   flex-direction: column;
 
-  .ci-titre {
-    font-size: 2rem;
+  button {
+    border: solid 1px var(--clr-light-grey);
+    border-radius: 20px;
+    text-decoration: none;
+    width: 4rem;
+    height: 2rem;
   }
 
   .ci-onglets {
@@ -667,7 +666,7 @@ nav {
     flex-direction: row;
 
     img {
-      width: 8rem;
+      width: 5rem;
       padding-right: 2rem;
     }
 
@@ -681,14 +680,6 @@ nav {
           width: 8rem;
           padding-right: 2rem;
         }
-
-        button {
-          border: solid 1px var(--clr-light-grey);
-          border-radius: 1.5rem;
-          text-decoration: none;
-          width: 4rem;
-          height: 2rem;
-        }
       }
     }
   }
@@ -697,14 +688,12 @@ nav {
 /* BLOC FOOTER */
 
 footer {
-  /* position: absolute; */
-  /* bottom: 10rem; */
   padding: 0 23rem;
   display: flex;
   bottom: 1px;
-  line-height: 2rem;
+  line-height: 1rem;
   margin-bottom: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--clr-dark-grey);
 
   ul {
@@ -721,7 +710,39 @@ footer {
       padding: 0 2rem;
 
       img {
-        width: 2rem;
+        width: 1.5rem;
+        position: relative;
+        bottom: 0.5rem;
+      }
+    }
+  }
+}
+/* BLOC FOOTER */
+
+footer {
+  padding: 0 23rem;
+  display: flex;
+  bottom: 1px;
+  line-height: 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.6rem;
+  color: var(--clr-dark-grey);
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      padding: 0 2rem;
+
+      img {
+        width: 1.5rem;
         position: relative;
         bottom: 0.5rem;
       }
@@ -729,27 +750,14 @@ footer {
   }
 }
 
-footer {
-  /* position: absolute; */
-  bottom: 1px;
-}
-
 /* BLOC COMPETENCES */
 
 .competences {
-  color: var(--clr-dark-grey);
   margin-top: 0.8rem;
   background-color: white;
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
   padding: 1.3rem 1.5rem 0 1.5rem;
-
-  h2 {
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    margin-bottom: 0.7rem;
-  }
 
   .competences-description {
     font-size: 0.8rem;

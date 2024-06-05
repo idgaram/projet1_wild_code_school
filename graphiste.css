@@ -1297,7 +1297,7 @@ article {
   grid-column: 3;
   padding: 5px;
   background-color: white;
-  background-image: url("/assets/disco.png");
+  background-image: url("./assets/disco.png");
   border: solid 1px var(--clr-border);
   border-radius: 0.5rem;
   border: 5px solid;
@@ -1416,14 +1416,12 @@ article {
 /* BLOC FOOTER */
 
 footer {
-  /* position: absolute; */
-  bottom: 10rem;
   padding: 0 23rem;
   display: flex;
   bottom: 1px;
-  line-height: 2rem;
+  line-height: 1rem;
   margin-bottom: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--clr-dark-grey);
 
   ul {
@@ -1440,7 +1438,7 @@ footer {
       padding: 0 2rem;
 
       img {
-        width: 2rem;
+        width: 1.5rem;
         position: relative;
         bottom: 0.5rem;
       }
