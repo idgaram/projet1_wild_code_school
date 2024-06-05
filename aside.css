@@ -9,6 +9,15 @@
   border-radius: 0.5rem;
   border: solid 1px var(--clr-border);
 }
+.box-profils-graphiste {
+  display: block;
+  width: 300px;
+  /* background-color: rgb(255, 255, 255); */
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px var(--clr-border);
+}
 
 .profil-autre {
   display: flex;
