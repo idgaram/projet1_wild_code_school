@@ -74,7 +74,7 @@
           </div>
           <div class="vertical-line"></div>
           <a href="">S'inscrire</a>
-          <a class="identify" href="">S'identifier</a>
+          <button class="identify" id="identify" href="">S'identifier</button>
         </div>
       </nav>
     </header>
@@ -82,6 +82,21 @@
     <!-- main body -->
 
     <main>
+      <!-- connection -->
+      <div class="connection invisible">
+        <div class="connection-body">
+          <button class="connection-fermer">fermer</button>
+          <form id="login-index">
+            entrer le mot de passe :
+            <input
+              type="text"
+              placeholder="Password"
+              class="password-field"
+            /><button class="login-button">se connecter</button>
+          </form>
+        </div>
+      </div>
+
       <!-- colonne de gauche -->
 
       <div class="left">
@@ -379,11 +394,11 @@
           <h2>Autres profils similaires</h2>
           <div class="profil-autre">
             <div class="box-profil-img">
-              <img class="profil-autre-img" src="/assets/stervos.jpg" alt="" />
+              <img class="profil-autre-img" src="assets/stervos.jpg" alt="" />
             </div>
             <div class="box-profil-autre-text">
-              <h2 class="autre-profil">Stervos Niarcos</h2>
-              <h3>Le Pape</h3>
+              <h2 class="autre-profil">Stervos "le père" Niarcos</h2>
+              <h3>prêtre</h3>
               <p>
                 L'unique inventeur de la sapologie, que la terre entière envie.
                 L'élégance n'a pas de prix, mais elle a des valeurs.
@@ -397,15 +412,23 @@
             <div class="box-profil-img">
               <img
                 class="profil-autre-img"
-                src="/assets/gentleman_bizaut.jpg"
+                src="assets/gentleman_bizaut.jpg"
                 alt=""
               />
             </div>
             <div class="box-profil-autre-text">
-              <h2 class="autre-profil">Gentleman Bizaut</h2>
+              <h2 class="autre-profil">Gentleman Bizaut Monfils</h2>
               <h3>Créateur</h3>
               <p>Le vrai sapologue ne suit pas la mode, il la crée.</p>
-              <button class="profil-autre-button">Voir le profil</button>
+              <button class="monfils" id="monfils" href="">
+                Voir le profil
+              </button>
+              <div class="reponse invisible">
+                <div class="reponse-body">
+                  <button class="reponse-fermer">fermer</button>
+                  Sapé comme jamais
+                </div>
+              </div>
             </div>
           </div>
           <hr />
@@ -414,12 +437,12 @@
             <div class="box-profil-img">
               <img
                 class="profil-autre-img"
-                src="/assets/Jocelyn_armel.jpg"
+                src="assets/Jocelyn_armel.jpg"
                 alt=""
               />
             </div>
             <div class="box-profil-autre-text">
-              <h2 class="autre-profil">Jocelyn Armel</h2>
+              <h2 class="autre-profil">Homme Armel</h2>
               <h3>Le Bachelor</h3>
               <p>Un sapologue ne se vante pas, il se distingue.</p>
               <button class="profil-autre-button">Voir le profil</button>
