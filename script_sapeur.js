@@ -12,49 +12,32 @@ boutonPause.addEventListener("click", () => {
   musique.pause();
 });
 
-const connectionPopup = document.querySelector(".connection");
-const boutonLogin = document.querySelector("#identify");
-const connectionFermer = document.querySelector(".connection-fermer");
+// function playAudio() {
+//   musique.play();
+//   //   alert("click");
+// }
 
-boutonLogin.addEventListener("click", () => {
-  connectionPopup.classList.toggle("visible");
-});
+// function pauseAudio() {
+//   x.pause();
+// }
 
-connectionFermer.addEventListener("click", () => {
-  connectionPopup.classList.toggle("visible");
-});
+console.log(
+  "Whoa ! La beauté de cette page réside dans l'harmonie impeccable entre le design visuel et l'ergonomie utilisateur. Dès l'instant où vous atterrissez sur cette page, vos yeux sont accueillis par une palette de couleurs apaisantes et modernes, où chaque teinte a été choisie pour créer une ambiance sereine et professionnelle. La typographie, avec ses polices raffinées et ses tailles variées, guide subtilement le regard à travers les sections, rendant la lecture agréable et fluide. Les images haute résolution sont soigneusement sélectionnées pour renforcer le message sans surcharger la vue, chaque photo et graphique étant parfaitement intégrés dans la structure de la page. Les espaces blancs sont utilisés avec une maîtrise exemplaire, permettant aux différents éléments de respirer et de se distinguer. Les menus de navigation sont simples mais sophistiqués, avec des animations discrètes qui ajoutent une touche de dynamisme sans distraire de l'essentiel. Les boutons d'appel à l'action sont clairement définis et placés stratégiquement pour encourager l'interaction sans forcer la main de l'utilisateur. En arrière-plan, des transitions fluides et des temps de chargement rapides assurent une expérience sans friction, rendant chaque visite mémorable. Cette page web n'est pas seulement un régal pour les yeux, mais aussi un modèle d'efficacité et de convivialité, démontrant comment une conception bien pensée peut transformer la navigation en ligne en un véritable plaisir. As- tu remarqué qu’une image peut en cacher une autre ? Tu devrais essayer sur toutes les merveilleuses personnalités d’Abdou."
+);
 
-const reponse = document.querySelector(".reponse");
-const monfils = document.querySelector(".monfils");
-const reponseFermer = document.querySelector(".reponse-fermer");
-
-monfils.addEventListener("click", () => {
-  reponse.classList.toggle("visible");
-});
-
-reponseFermer.addEventListener("click", () => {
-  reponse.classList.toggle("visible");
-});
-
-reponse - fermer;
 // fonction login à répéter
-
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#login-index");
   const inputField = document.querySelector(".password-field");
-  const answer = "Sapé comme jamais";
+  const answer = "abdou123456789";
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (inputField.value === answer) {
-      window.location.href = "graphiste.html";
+      window.location.href = "sapeur.html";
     } else {
       alert("le mot de passe est erroné");
     }
   });
 });
-
-console.log(
-  "clique sur le bouton follow de l'enfant de l'homme qui est le père de ton fils, du coup sachant que ton fils est le tien, que l'homme est le grand père de ton fils, et que tu es un homme. J'en déduis que tu devrait etre le fils du grand père de ton fils, je dirait donc que l'homme est ton père et que tu es son fils"
-);
