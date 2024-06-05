@@ -1,5 +1,5 @@
 let musique = document.getElementById("myAudioPoussin");
-console.log(musique);
+// console.log(musique);
 
 let bouton = document.getElementById("bouton");
 bouton.addEventListener("click", () => {
@@ -20,9 +20,12 @@ const textFermierTrois = "Quelle est la couleur des cheveux du boucher ?";
 const textFermierQuatre =
   "Tu as vu les expériences d’Abdou ? il a du avoir beaucoup de responsibilité";
 
-console.log(textFermierUn);
-console.log(textFermierDeux);
-console.log(textFermierTrois);
+// console.log(textFermierUn);
+// console.log(textFermierDeux);
+// console.log(textFermierTrois);
+console.log(
+  "Sur les autres page consultées, il y a un poissonnier nommé Blanc, un charcutier nommé Noir et un boucher nommé Roux. Alors qu’ils étaient en train de ranger leurs marchandises, l’un d’eux dit :« Mes cheveux sont noirs, les vôtres sont respectivement roux et blancs, mais aucun de nous trois n’a une couleur de cheveux correspondant à son nom. C’est vrai, répond Blanc.Quelle est la couleur des cheveux du boucher ?"
+);
 console.log(textFermierQuatre);
 
 const connectionPopup = document.querySelector(".connection");
@@ -37,9 +40,9 @@ connectionFermer.addEventListener("click", () => {
   connectionPopup.classList.toggle("visible");
 });
 
-console.log(
-  "Sur les autres page consultées, il y a un poissonnier nommé Blanc, un charcutier nommé Noir et un boucher nommé Roux. Alors qu’ils étaient en train de ranger leurs marchandises, l’un d’eux dit :« Mes cheveux sont noirs, les vôtres sont respectivement roux et blancs, mais aucun de nous trois n’a une couleur de cheveux correspondant à son nom. C’est vrai, répond Blanc.Quelle est la couleur des cheveux du boucher ?"
-);
+// console.log(
+//   "Sur les autres page consultées, il y a un poissonnier nommé Blanc, un charcutier nommé Noir et un boucher nommé Roux. Alors qu’ils étaient en train de ranger leurs marchandises, l’un d’eux dit :« Mes cheveux sont noirs, les vôtres sont respectivement roux et blancs, mais aucun de nous trois n’a une couleur de cheveux correspondant à son nom. C’est vrai, répond Blanc.Quelle est la couleur des cheveux du boucher ?"
+// );
 
 // fonction login à répéter
 document.addEventListener("DOMContentLoaded", () => {
