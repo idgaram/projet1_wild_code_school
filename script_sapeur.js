@@ -1,9 +1,9 @@
 let musique = document.getElementById("myAudio");
-console.log(musique);
+// console.log(musique);
 
 let bouton = document.getElementById("bouton");
 bouton.addEventListener("click", () => {
-  console.log(bouton);
+  // console.log(bouton);
   musique.play();
 });
 

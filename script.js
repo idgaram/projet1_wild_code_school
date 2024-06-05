@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
 
     if (inputField.value === answer) {
-      window.location.href = "sapeur.html";
+      window.location.href = "fermier.html";
     } else {
       alert("le mot de passe est erroné");
     }
