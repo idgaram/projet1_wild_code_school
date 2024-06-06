@@ -25,7 +25,7 @@ connectionFermer.addEventListener("click", () => {
 const intro =
   "Salut c'est Flo je vais t'accompagner dans les méandres de la tête d'Abdou, pour continuer répond à l'énigme et tape ta réponse en cliquant sur se connecter ";
 const textDevUn =
-  "Qu'est-ce qui t'appartient mais que les autres utilisent plus que toi ?";
+  "Qu'est-ce qui appartient à Abdou mais que les autres utilisent plus qu'à lui?";
 const textDevDeux =
   "Un fermier a 17 poulets, ils meurent tous sauf 9. Combien as-tu d’abonnés ?";
 
@@ -37,7 +37,7 @@ console.log(textDevDeux);
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#login-index");
   const inputField = document.querySelector(".password-field");
-  const answer = "abdou123456789";
+  const answer = "prenom123456789";
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
