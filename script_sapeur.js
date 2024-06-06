@@ -55,5 +55,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 console.log(
-  "clique sur le bouton follow de l'enfant de l'homme qui est le père de ton fils, du coup sachant que ton fils est le tien, que l'homme est le grand père de ton fils, et que tu es un homme. J'en déduis que tu devrait etre le fils du grand père de ton fils, je dirait donc que l'homme est ton père et que tu es son fils"
+  "clique sur le bouton voir le profil de l'enfant de l'homme qui est le père de ton fils, du coup sachant que ton fils est le tien, que l'homme est le grand père de ton fils, et que tu es un homme. J'en déduis que tu devrait etre le fils du grand père de ton fils, je dirait donc que l'homme est ton père et que tu es son fils"
 );

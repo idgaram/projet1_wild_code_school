@@ -14,6 +14,9 @@ connectionFermer.addEventListener("click", () => {
   connectionPopup.classList.toggle("visible");
 });
 
+const videoCache = document.querySelector(".video-cache");
+const abdou = document.querySelector("#abdou");
+
 // fonction login à répéter
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#login-index");
@@ -22,9 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-
+    videoCache.classList.toggle("visible");
     if (inputField.value === answer) {
-      window.location.href = "sapeur.html";
+      abdou.play();
     } else {
       alert("le mot de passe est erroné");
     }
