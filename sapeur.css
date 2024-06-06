@@ -541,7 +541,7 @@ nav {
           border-radius: 1.5rem;
           text-decoration: none;
           color: var(--clr-dark-grey);
-          width: 4rem;
+/*           width: 4rem; */
           height: 2rem;
           display: flex;
           align-items: center;
