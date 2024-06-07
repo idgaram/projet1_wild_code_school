@@ -25,7 +25,7 @@ connectionFermer.addEventListener("click", () => {
 const intro =
   "Salut c'est Flo je vais t'accompagner dans les méandres de la tête d'Abdou, pour continuer répond à l'énigme et tape ta réponse en cliquant sur se connecter ";
 const textDevUn =
-  "Qu'est-ce qui appartient à Abdou mais que les autres utilisent plus qu'à lui?";
+  "Qu'est-ce qui appartient à Abdou mais que les autres utilisent plus que lui?";
 const textDevDeux =
   "Un fermier a 17 poulets, ils meurent tous sauf 9. Combien as-tu d’abonnés ?";
 
